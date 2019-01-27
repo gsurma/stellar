@@ -1,0 +1,6 @@
+framework module Pods_Spacetagram {
+  umbrella header "Pods-Spacetagram-umbrella.h"
+
+  export *
+  module * { export * }
+}
