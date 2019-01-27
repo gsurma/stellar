@@ -15,12 +15,15 @@
 		6028FE6F21FD474C004026C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6028FE6D21FD474C004026C5 /* LaunchScreen.storyboard */; };
 		6028FE7821FD4887004026C5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6028FE7721FD4887004026C5 /* Constants.swift */; };
 		6028FE8121FD4E94004026C5 /* PictureOfTheDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6028FE8021FD4E94004026C5 /* PictureOfTheDay.swift */; };
+		E6684084D2533527C9897B27 /* Pods_Stellar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A6AE1CAC960602D64D7BDAD /* Pods_Stellar.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A6AE1CAC960602D64D7BDAD /* Pods_Stellar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stellar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E573098B1009A4B0996AC88 /* Pods_Spacetagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Spacetagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E7E13DCA575CBF8939F77FC /* Pods-Stellar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stellar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Stellar/Pods-Stellar.debug.xcconfig"; sourceTree = "<group>"; };
 		3267888C08414D0504EF1859 /* Pods-Spacetagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spacetagram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Spacetagram/Pods-Spacetagram.debug.xcconfig"; sourceTree = "<group>"; };
-		6028FE6121FD474A004026C5 /* Spacetagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spacetagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6028FE6121FD474A004026C5 /* Stellar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stellar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6028FE6421FD474A004026C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6028FE6621FD474A004026C5 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		6028FE6921FD474A004026C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -29,6 +32,7 @@
 		6028FE7021FD474C004026C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6028FE7721FD4887004026C5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		6028FE8021FD4E94004026C5 /* PictureOfTheDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureOfTheDay.swift; sourceTree = "<group>"; };
+		E725F50E2C2F3C8D0BC90C56 /* Pods-Stellar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stellar.release.xcconfig"; path = "Pods/Target Support Files/Pods-Stellar/Pods-Stellar.release.xcconfig"; sourceTree = "<group>"; };
 		E849468E682B383613F0BDE6 /* Pods-Spacetagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spacetagram.release.xcconfig"; path = "Pods/Target Support Files/Pods-Spacetagram/Pods-Spacetagram.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -38,6 +42,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A1F5D3B320EAD4329982259 /* Pods_Spacetagram.framework in Frameworks */,
+				E6684084D2533527C9897B27 /* Pods_Stellar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -49,6 +54,8 @@
 			children = (
 				3267888C08414D0504EF1859 /* Pods-Spacetagram.debug.xcconfig */,
 				E849468E682B383613F0BDE6 /* Pods-Spacetagram.release.xcconfig */,
+				1E7E13DCA575CBF8939F77FC /* Pods-Stellar.debug.xcconfig */,
+				E725F50E2C2F3C8D0BC90C56 /* Pods-Stellar.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -56,7 +63,7 @@
 		6028FE5821FD474A004026C5 = {
 			isa = PBXGroup;
 			children = (
-				6028FE6321FD474A004026C5 /* Spacetagram */,
+				6028FE6321FD474A004026C5 /* Stellar */,
 				6028FE6221FD474A004026C5 /* Products */,
 				5F52465A3477295BF973E057 /* Pods */,
 				E6C3CC2A94560501D0F612E3 /* Frameworks */,
@@ -66,12 +73,12 @@
 		6028FE6221FD474A004026C5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6028FE6121FD474A004026C5 /* Spacetagram.app */,
+				6028FE6121FD474A004026C5 /* Stellar.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6028FE6321FD474A004026C5 /* Spacetagram */ = {
+		6028FE6321FD474A004026C5 /* Stellar */ = {
 			isa = PBXGroup;
 			children = (
 				6028FE7C21FD4909004026C5 /* Utilities */,
@@ -80,7 +87,7 @@
 				6028FE7921FD48AC004026C5 /* Application */,
 				6028FE7621FD4878004026C5 /* Resources */,
 			);
-			path = Spacetagram;
+			path = Stellar;
 			sourceTree = "<group>";
 		};
 		6028FE7621FD4878004026C5 /* Resources */ = {
@@ -130,6 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				0E573098B1009A4B0996AC88 /* Pods_Spacetagram.framework */,
+				0A6AE1CAC960602D64D7BDAD /* Pods_Stellar.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -137,9 +145,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6028FE6021FD474A004026C5 /* Spacetagram */ = {
+		6028FE6021FD474A004026C5 /* Stellar */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6028FE7321FD474C004026C5 /* Build configuration list for PBXNativeTarget "Spacetagram" */;
+			buildConfigurationList = 6028FE7321FD474C004026C5 /* Build configuration list for PBXNativeTarget "Stellar" */;
 			buildPhases = (
 				C7333171354DC4BD305939E3 /* [CP] Check Pods Manifest.lock */,
 				6028FE5D21FD474A004026C5 /* Sources */,
@@ -152,9 +160,9 @@
 			);
 			dependencies = (
 			);
-			name = Spacetagram;
+			name = Stellar;
 			productName = Spacetagram;
-			productReference = 6028FE6121FD474A004026C5 /* Spacetagram.app */;
+			productReference = 6028FE6121FD474A004026C5 /* Stellar.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -172,7 +180,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6028FE5C21FD474A004026C5 /* Build configuration list for PBXProject "Spacetagram" */;
+			buildConfigurationList = 6028FE5C21FD474A004026C5 /* Build configuration list for PBXProject "Stellar" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -185,7 +193,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6028FE6021FD474A004026C5 /* Spacetagram */,
+				6028FE6021FD474A004026C5 /* Stellar */,
 			);
 		};
 /* End PBXProject section */
@@ -236,7 +244,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Spacetagram-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Stellar-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -251,7 +259,7 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Spacetagram/Pods-Spacetagram-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-Stellar/Pods-Stellar-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Comets/Comets.framework",
 				"${BUILT_PRODUCTS_DIR}/DJSemiModalViewController/DJSemiModalViewController.framework",
 				"${BUILT_PRODUCTS_DIR}/PKHUD/PKHUD.framework",
@@ -266,7 +274,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Spacetagram/Pods-Spacetagram-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Stellar/Pods-Stellar-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -423,7 +431,7 @@
 		};
 		6028FE7421FD474C004026C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3267888C08414D0504EF1859 /* Pods-Spacetagram.debug.xcconfig */;
+			baseConfigurationReference = 1E7E13DCA575CBF8939F77FC /* Pods-Stellar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -434,7 +442,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = spacetagram;
+				PRODUCT_BUNDLE_IDENTIFIER = "stellar-potd";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -443,7 +451,7 @@
 		};
 		6028FE7521FD474C004026C5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E849468E682B383613F0BDE6 /* Pods-Spacetagram.release.xcconfig */;
+			baseConfigurationReference = E725F50E2C2F3C8D0BC90C56 /* Pods-Stellar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,7 +462,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = spacetagram;
+				PRODUCT_BUNDLE_IDENTIFIER = "stellar-potd";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -464,7 +472,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6028FE5C21FD474A004026C5 /* Build configuration list for PBXProject "Spacetagram" */ = {
+		6028FE5C21FD474A004026C5 /* Build configuration list for PBXProject "Stellar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6028FE7121FD474C004026C5 /* Debug */,
@@ -473,7 +481,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6028FE7321FD474C004026C5 /* Build configuration list for PBXNativeTarget "Spacetagram" */ = {
+		6028FE7321FD474C004026C5 /* Build configuration list for PBXNativeTarget "Stellar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6028FE7421FD474C004026C5 /* Debug */,

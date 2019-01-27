@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_SpacetagramVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_SpacetagramVersionString[];
+FOUNDATION_EXPORT double Pods_StellarVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_StellarVersionString[];
 
