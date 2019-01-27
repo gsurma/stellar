@@ -14,6 +14,6 @@ enum Backend {
     static let host = "https://api.nasa.gov"
 }
 
-let imageAnimationDuration: TimeInterval = 0.3
+let imageAnimationDuration: TimeInterval = 0.5
 let requestTimeout: TimeInterval = 3.0
 let motionEffectsRange: CGFloat = 20

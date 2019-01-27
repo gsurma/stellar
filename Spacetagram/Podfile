@@ -10,5 +10,6 @@ target 'Spacetagram' do
   pod "Fabric"
   pod "Crashlytics"
   pod "Comets"
+  pod "DJSemiModalViewController"
 
 end

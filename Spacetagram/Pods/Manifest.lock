@@ -2,6 +2,7 @@ PODS:
   - Comets (0.2.0)
   - Crashlytics (3.11.1):
     - Fabric (~> 1.8.1)
+  - DJSemiModalViewController (0.1.2)
   - Fabric (1.8.1)
   - Google-Mobile-Ads-SDK (7.35.1)
   - PKHUD (5.2.0)
@@ -9,6 +10,7 @@ PODS:
 DEPENDENCIES:
   - Comets
   - Crashlytics
+  - DJSemiModalViewController
   - Fabric
   - Google-Mobile-Ads-SDK
   - PKHUD (~> 5.0)
@@ -17,6 +19,7 @@ SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Comets
     - Crashlytics
+    - DJSemiModalViewController
     - Fabric
     - Google-Mobile-Ads-SDK
     - PKHUD
@@ -24,10 +27,11 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   Comets: 439e145d78d6455c679e728b0aa36e5f62d8882e
   Crashlytics: ca7ab4bc304aa216bdc2e4c1a96389ee77252203
+  DJSemiModalViewController: 37874ffd8e040e78aed443435e8d388da783028d
   Fabric: 43ed7bac010f588f63ee23ab1a0276b296db5e17
   Google-Mobile-Ads-SDK: 151d5e87b4a0ae6d7d07e2cd8d55d1b41ea2e61e
   PKHUD: dd5357ac65f26115c35c4a68e9b328053326c5fe
 
-PODFILE CHECKSUM: 6537ce3637e4ac164602a1da94937ec55c661461
+PODFILE CHECKSUM: d41f848527c120fb2f8fdf1fc502a5ceaf9c9319
 
 COCOAPODS: 1.5.3

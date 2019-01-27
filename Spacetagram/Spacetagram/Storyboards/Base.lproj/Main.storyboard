@@ -21,13 +21,29 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="space" translatesAutoresizingMaskIntoConstraints="NO" id="lTc-d7-Rud">
                                 <rect key="frame" x="-20" y="-20" width="454" height="936"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hmT-vD-fQ2">
+                                <rect key="frame" x="132" y="804.5" width="150" height="27.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="4e2-DZ-hrW"/>
+                                    <constraint firstAttribute="width" secondItem="hmT-vD-fQ2" secondAttribute="height" multiplier="512:94" id="xx7-mW-w0w"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="50" minY="10" maxX="50" maxY="10"/>
+                                <state key="normal" title="Button" image="dots">
+                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="infoAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SbY-Bn-u1G"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="hmT-vD-fQ2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8Xm-Id-zsU"/>
                             <constraint firstItem="lTc-d7-Rud" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="-20" id="Fd3-eq-c9X"/>
                             <constraint firstAttribute="trailing" secondItem="lTc-d7-Rud" secondAttribute="trailing" constant="-20" id="Tl0-IA-kRt"/>
                             <constraint firstItem="lTc-d7-Rud" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="-20" id="Wvf-jR-Ciq"/>
                             <constraint firstAttribute="bottom" secondItem="lTc-d7-Rud" secondAttribute="bottom" constant="-20" id="fO1-l6-vM6"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="hmT-vD-fQ2" secondAttribute="bottom" constant="30" id="xIh-Rh-17s"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -40,6 +56,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="dots" width="512" height="94"/>
         <image name="space" width="1242" height="2208"/>
     </resources>
 </document>

@@ -253,6 +253,7 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Spacetagram/Pods-Spacetagram-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Comets/Comets.framework",
+				"${BUILT_PRODUCTS_DIR}/DJSemiModalViewController/DJSemiModalViewController.framework",
 				"${BUILT_PRODUCTS_DIR}/PKHUD/PKHUD.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -260,6 +261,7 @@
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Comets.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DJSemiModalViewController.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PKHUD.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

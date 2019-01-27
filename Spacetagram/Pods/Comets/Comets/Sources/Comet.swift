@@ -49,7 +49,7 @@ public struct Comet {
         let cometLayer = CAGradientLayer()
         cometLayer.colors = [UIColor.white.withAlphaComponent(0.0).cgColor, UIColor.white.cgColor]
         cometLayer.cornerRadius = 0.25
-        cometLayer.frame = CGRect(x: 0, y: 0, width: 80, height: 0.5)
+        cometLayer.frame = CGRect(x: 0, y: 0, width: 40, height: 0.25)
         cometLayer.locations = [0.0, 1.0]
         cometLayer.startPoint = CGPoint(x: 0, y: 0.5)
         cometLayer.endPoint = CGPoint(x: 1.0, y: 0.5)
