@@ -9,6 +9,6 @@ target 'Spacetagram' do
   pod "PKHUD", "~> 5.0"
   pod "Fabric"
   pod "Crashlytics"
-  pod "ParallaxHeader", "~> 2.0.0"
+  pod "Comets"
 
 end

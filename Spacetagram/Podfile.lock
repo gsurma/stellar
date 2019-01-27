@@ -1,33 +1,33 @@
 PODS:
+  - Comets (0.2.0)
   - Crashlytics (3.11.1):
     - Fabric (~> 1.8.1)
   - Fabric (1.8.1)
   - Google-Mobile-Ads-SDK (7.35.1)
-  - ParallaxHeader (2.0.0)
   - PKHUD (5.2.0)
 
 DEPENDENCIES:
+  - Comets
   - Crashlytics
   - Fabric
   - Google-Mobile-Ads-SDK
-  - ParallaxHeader (~> 2.0.0)
   - PKHUD (~> 5.0)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - Comets
     - Crashlytics
     - Fabric
     - Google-Mobile-Ads-SDK
-    - ParallaxHeader
     - PKHUD
 
 SPEC CHECKSUMS:
+  Comets: 439e145d78d6455c679e728b0aa36e5f62d8882e
   Crashlytics: ca7ab4bc304aa216bdc2e4c1a96389ee77252203
   Fabric: 43ed7bac010f588f63ee23ab1a0276b296db5e17
   Google-Mobile-Ads-SDK: 151d5e87b4a0ae6d7d07e2cd8d55d1b41ea2e61e
-  ParallaxHeader: fb6ee97915626454f3c029a97b424f79a777c642
   PKHUD: dd5357ac65f26115c35c4a68e9b328053326c5fe
 
-PODFILE CHECKSUM: 318a8afe99c6bce02a25333a34d43dc20783638f
+PODFILE CHECKSUM: 6537ce3637e4ac164602a1da94937ec55c661461
 
 COCOAPODS: 1.5.3

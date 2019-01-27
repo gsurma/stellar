@@ -8,52 +8,51 @@
 
 /* Begin PBXBuildFile section */
 		041A319F313FA03C9AECBD23F4A41676 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		0AD7956E61AD5EF273B31E3878B480F9 /* PKHUDSquareBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A960DFF930F8F13DF542C4C719AB46D /* PKHUDSquareBaseView.swift */; };
-		0C2767249291A4A1505A28CFC9498026 /* PKHUDRotatingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F683A6A1AB9BD4B01417FA51F37B1A22 /* PKHUDRotatingImageView.swift */; };
-		0F4DD3C94E4DF364C580CCA89D9C2415 /* PKHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C1909F229EB088C0598E2EB5B9B70C4 /* PKHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3BC5BD0252DA8DA05906C5D590C834C9 /* PKHUDAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0B04A2970E3A795BEA5F63D3F4CEBD /* PKHUDAnimation.swift */; };
-		4FC4DA714B42350BC08EA10BD54A38AE /* PKHUDErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122DDC61B61ABC66BBCE6F05FA7315B1 /* PKHUDErrorView.swift */; };
-		56B248BFE0536E51DAEE0B50FCA1D34A /* ParallaxHeader-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3097A7DDFC5584D9D7D4FC20EDED5F9B /* ParallaxHeader-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		584DA6928D93CB8AA7DDDEB67FF8FE5C /* FrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0B4F3CA4F1B0C0B85A70A485F027B8 /* FrameView.swift */; };
-		6384CC7276BF926A6E48E96AA10EFC1A /* PKHUDSuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F2E39D6766DCB1473FCAC00C9C7964 /* PKHUDSuccessView.swift */; };
-		695A4D580E443E5DE0356968CCC393CD /* PKHUDSystemActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7FF163DF33E4DAA092922DDC7C6002 /* PKHUDSystemActivityIndicatorView.swift */; };
-		7187B4DDEF3EF96F0E6983A9A0AEE61E /* PKHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = C935F45BE7FE6D98D732047A9E2AC00F /* PKHUD.swift */; };
-		77F0259A1D06F45CC9A4FB18661C079A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		78B029B6D7F554212B95F64F80CDEC33 /* PKHUDAnimating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDC3E84963BB213B74794665BDF5E6E /* PKHUDAnimating.swift */; };
-		7A0415F30265763B2C1A9FA24EFACBC1 /* Pods-Spacetagram-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C504E019F8B44F942D12EF5493C091C7 /* Pods-Spacetagram-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7E49EB565118F1F3A231528110A1FF5F /* PKHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 61A9C087FF4807AC46D51657D9D1D1E0 /* PKHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		86B6559960A8722CF10288E54CF2FF6A /* ParallaxHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309523C694BDA5097348AE1AF85C95E6 /* ParallaxHeader.swift */; };
-		8C4D24A5AC87E30A33214EA4E7FA359B /* PKHUDAssets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567430A532B6A8185672723E24795092 /* PKHUDAssets.swift */; };
-		8E945BA2AB75EB4A3E0B0E66CAB5D17C /* WindowRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B8CEC3961022F5773918BED23E3A09 /* WindowRootViewController.swift */; };
-		92F8FD877A3FE627B65E403EAB6DE208 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		9967627CA12A571655D6F64ECD4688B3 /* PKHUDResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1334B87C95BE5C239782594DD1127763 /* PKHUDResources.bundle */; };
-		99D620F94B0CD9C041635D559BD81B4A /* HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF04CE16E91844E60699401EBABDD11 /* HUD.swift */; };
-		9A1224693C7C3574E4A517844399E668 /* PKHUDWideBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9171E7E880175B493A1752069D92AE /* PKHUDWideBaseView.swift */; };
-		B73DF2B6DA3D33788C211E6C8FE8D45E /* ParallaxHeaderMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229941B1425518B82CD6C68FA006EBE6 /* ParallaxHeaderMode.swift */; };
-		B9DC48D46DEB78E0C409544B4D2BE4F6 /* ParallaxHeader-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BBD1A2E1BA1FCFAC26639BCA2999DC /* ParallaxHeader-dummy.m */; };
-		BC340240B347A14052A024F745BCA2D3 /* Pods-Spacetagram-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C1BE8A29A9561AF8B9D6A094CDAA7F /* Pods-Spacetagram-dummy.m */; };
-		C16DB56D2D110826C502A4DFF6A6F0D3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD3C97D6B0EA923E17CB47D7DF8A267A /* Images.xcassets */; };
-		EC093FB80F3090C6B466C94280790C23 /* Window.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AC225022911D197B6A2125E507E789 /* Window.swift */; };
-		ECB37571500A625742833F6EDD1CE4E1 /* PKHUDTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F608204EE08CC4FC2AAB3ED1387451A /* PKHUDTextView.swift */; };
-		F51584A61D18FFFF50A115D6351EB91C /* PKHUDProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34B88B79550105E7FF30F76B8E0C64C /* PKHUDProgressView.swift */; };
-		F9718DA2D558B553E75E2031B94D55D8 /* PKHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B698760D40B6187761D8C2EB4664AF /* PKHUD-dummy.m */; };
-		FAED3D47A2758410F9F1088BFF5B30D5 /* UIScrollView+ParallaxHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29D803492F4197DB0890B6FF5835FD7 /* UIScrollView+ParallaxHeader.swift */; };
+		0AD7956E61AD5EF273B31E3878B480F9 /* PKHUDSquareBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E940A597C6E79878633323F878A41B /* PKHUDSquareBaseView.swift */; };
+		0C2767249291A4A1505A28CFC9498026 /* PKHUDRotatingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57347F619FA69966534CB7E520D6794 /* PKHUDRotatingImageView.swift */; };
+		0F4DD3C94E4DF364C580CCA89D9C2415 /* PKHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A5CB0C354E66ACCF9DB352120B80E8C /* PKHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		111E939949D801E4AEAC7EF86A6BA133 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		18633956C22E9035A8773C735828DD8B /* Comet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10148166AF3BC740E9DF1EC84168E42 /* Comet.swift */; };
+		3BC5BD0252DA8DA05906C5D590C834C9 /* PKHUDAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F1CCADA0FD2B385CA1CED346F6A033 /* PKHUDAnimation.swift */; };
+		4FC4DA714B42350BC08EA10BD54A38AE /* PKHUDErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62CE26F0C6525539F9773AF9CCB83C0F /* PKHUDErrorView.swift */; };
+		584DA6928D93CB8AA7DDDEB67FF8FE5C /* FrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8004D71E00787A96A0CD344626B2FA9 /* FrameView.swift */; };
+		6384CC7276BF926A6E48E96AA10EFC1A /* PKHUDSuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487A6576366DC38BD14DD9959E58096F /* PKHUDSuccessView.swift */; };
+		695A4D580E443E5DE0356968CCC393CD /* PKHUDSystemActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03877EA354D71CCD580C92E9F21D7444 /* PKHUDSystemActivityIndicatorView.swift */; };
+		7187B4DDEF3EF96F0E6983A9A0AEE61E /* PKHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1FACAB4FE6885DFB9A553E41DC7DF1 /* PKHUD.swift */; };
+		78B029B6D7F554212B95F64F80CDEC33 /* PKHUDAnimating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4CAECCBA2D1C6E7BB7B0F56A965E89 /* PKHUDAnimating.swift */; };
+		7E49EB565118F1F3A231528110A1FF5F /* PKHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 5506E9EF20833863854EF0C9FD3D161E /* PKHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C4D24A5AC87E30A33214EA4E7FA359B /* PKHUDAssets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86321332B84C77ED9753B019B40AC9F0 /* PKHUDAssets.swift */; };
+		8E945BA2AB75EB4A3E0B0E66CAB5D17C /* WindowRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709146B81436A6BC82C15B6E9B7223F1 /* WindowRootViewController.swift */; };
+		9967627CA12A571655D6F64ECD4688B3 /* PKHUDResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FBF8FAD750C1F0B4720C9290593066BA /* PKHUDResources.bundle */; };
+		99D620F94B0CD9C041635D559BD81B4A /* HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013043A4A02147726FACD60A6B794BF5 /* HUD.swift */; };
+		9A1224693C7C3574E4A517844399E668 /* PKHUDWideBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B45E1EBB3948D00BF6BC5AF20E77BF /* PKHUDWideBaseView.swift */; };
+		A0547D6163F87637E476532F0E69FC5C /* Pods-Spacetagram-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C504E019F8B44F942D12EF5493C091C7 /* Pods-Spacetagram-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C16DB56D2D110826C502A4DFF6A6F0D3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02A0307C0516043421A9D8196D965B2B /* Images.xcassets */; };
+		C39113142D55BF19544D120DFD699A74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		CBF2A7EC68B21B7EE07CA6FA4CB20AAE /* Comets-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5642C0B084FFE8A95D09161B1A9F77A /* Comets-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D27536F8C3C9923777AE9C7CEE6A26A3 /* Pods-Spacetagram-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C1BE8A29A9561AF8B9D6A094CDAA7F /* Pods-Spacetagram-dummy.m */; };
+		D623905E75C43F8D2297D4F7DD0829C6 /* Comets-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF915A831ED6294E151C70FDDDED1C99 /* Comets-dummy.m */; };
+		EC093FB80F3090C6B466C94280790C23 /* Window.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C337F1E1F9DBF893A6A80E6000492E /* Window.swift */; };
+		ECB37571500A625742833F6EDD1CE4E1 /* PKHUDTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923ADFA463C23B171E1AD9489ED52E92 /* PKHUDTextView.swift */; };
+		F184A6BD95060E28F3CD604B3216F88D /* UIImage+Rotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59284B554DCAD9FBD228BC48D6125B8 /* UIImage+Rotate.swift */; };
+		F51584A61D18FFFF50A115D6351EB91C /* PKHUDProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE59ED7399A01CC7C1FF4C9CE27E79B /* PKHUDProgressView.swift */; };
+		F9718DA2D558B553E75E2031B94D55D8 /* PKHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 882CE61495A7F400980BD188DB381B6A /* PKHUD-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		840E67E463E8C26EE0BCEED552E6B117 /* PBXContainerItemProxy */ = {
+		7CD21DC9BFC02AD74EB3FE0624116B88 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 0422742DF5CC42F97485A5A4607BBEE9;
 			remoteInfo = PKHUD;
 		};
-		B7F24BC5519608F608CDE7542349DDAA /* PBXContainerItemProxy */ = {
+		9EED8ADD1874F900A388ECEC504B44C3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 17C95B72A8E66F15D88471393C619B58;
-			remoteInfo = ParallaxHeader;
+			remoteGlobalIDString = 0D8C7851DFE5705E46C6FB7E7425EEAD;
+			remoteInfo = Comets;
 		};
 		E0883D7F7AB2ACD8990E5C3D4857446A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -65,77 +64,76 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00A70FC22116F15A27042B581E8F288F /* Pods_Spacetagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Spacetagram.framework; path = "Pods-Spacetagram.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		013043A4A02147726FACD60A6B794BF5 /* HUD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HUD.swift; path = PKHUD/HUD.swift; sourceTree = "<group>"; };
+		02A0307C0516043421A9D8196D965B2B /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = PKHUD/Images.xcassets; sourceTree = "<group>"; };
+		03505B62F5BA5EB0167AB8D50A8E1A26 /* Comets-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Comets-prefix.pch"; sourceTree = "<group>"; };
+		03877EA354D71CCD580C92E9F21D7444 /* PKHUDSystemActivityIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDSystemActivityIndicatorView.swift; path = PKHUD/PKHUDSystemActivityIndicatorView.swift; sourceTree = "<group>"; };
+		07993C8186D9B11E56A0E757DC516251 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Crashlytics.framework; path = iOS/Crashlytics.framework; sourceTree = "<group>"; };
+		0A0E9038BC0B13F524DAD3B91EB15C30 /* ResourceBundle-PKHUDResources-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-PKHUDResources-Info.plist"; sourceTree = "<group>"; };
 		0B8F952AABD7DF6F08FB79C1F8A14D27 /* Pods-Spacetagram.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Spacetagram.modulemap"; sourceTree = "<group>"; };
-		0C7FF163DF33E4DAA092922DDC7C6002 /* PKHUDSystemActivityIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDSystemActivityIndicatorView.swift; path = PKHUD/PKHUDSystemActivityIndicatorView.swift; sourceTree = "<group>"; };
-		11FEC27BD4B453F316D64EBD5FCC68B7 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = Frameworks/frameworks/GoogleMobileAds.framework; sourceTree = "<group>"; };
-		122DDC61B61ABC66BBCE6F05FA7315B1 /* PKHUDErrorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDErrorView.swift; path = PKHUD/PKHUDErrorView.swift; sourceTree = "<group>"; };
-		1334B87C95BE5C239782594DD1127763 /* PKHUDResources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = PKHUDResources.bundle; path = "PKHUD-PKHUDResources.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		229941B1425518B82CD6C68FA006EBE6 /* ParallaxHeaderMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParallaxHeaderMode.swift; path = ParallaxHeader/ParallaxHeaderMode.swift; sourceTree = "<group>"; };
-		2B7A0434923D98C6A14245E4650634CD /* ANSCompatibility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANSCompatibility.h; path = iOS/Crashlytics.framework/Headers/ANSCompatibility.h; sourceTree = "<group>"; };
+		10C337F1E1F9DBF893A6A80E6000492E /* Window.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Window.swift; path = PKHUD/Window.swift; sourceTree = "<group>"; };
+		12D0C188DD13E8E786531F137ED95C5C /* PKHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PKHUD-prefix.pch"; sourceTree = "<group>"; };
+		21447DE8B3F79FE0AE695352E83676FD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		281C1AEB8B84C5C65AC0303E35594433 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Fabric.framework; path = iOS/Fabric.framework; sourceTree = "<group>"; };
+		2D9B86947BB1C6CAF6D92E79F638CDAC /* ANSCompatibility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANSCompatibility.h; path = iOS/Crashlytics.framework/Headers/ANSCompatibility.h; sourceTree = "<group>"; };
 		2DB2F0A6E95F889D9E89D4CFB7CD6588 /* Pods-Spacetagram-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Spacetagram-acknowledgements.plist"; sourceTree = "<group>"; };
-		2DBB756D33E726DB90F927F0A8EF6561 /* ResourceBundle-PKHUDResources-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-PKHUDResources-Info.plist"; sourceTree = "<group>"; };
-		2FF04CE16E91844E60699401EBABDD11 /* HUD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HUD.swift; path = PKHUD/HUD.swift; sourceTree = "<group>"; };
-		309523C694BDA5097348AE1AF85C95E6 /* ParallaxHeader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParallaxHeader.swift; path = ParallaxHeader/ParallaxHeader.swift; sourceTree = "<group>"; };
-		3097A7DDFC5584D9D7D4FC20EDED5F9B /* ParallaxHeader-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ParallaxHeader-umbrella.h"; sourceTree = "<group>"; };
 		31859F373BBACC185935CE5A66B55A4C /* Pods-Spacetagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Spacetagram.debug.xcconfig"; sourceTree = "<group>"; };
-		33AC225022911D197B6A2125E507E789 /* Window.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Window.swift; path = PKHUD/Window.swift; sourceTree = "<group>"; };
-		36EBF7070A63E663C4FFD0240AA302C3 /* Crashlytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Crashlytics.h; path = iOS/Crashlytics.framework/Headers/Crashlytics.h; sourceTree = "<group>"; };
-		3D7B73B2C3D4DBE8F11E927E416BF093 /* PKHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PKHUD.xcconfig; sourceTree = "<group>"; };
+		39B45E1EBB3948D00BF6BC5AF20E77BF /* PKHUDWideBaseView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDWideBaseView.swift; path = PKHUD/PKHUDWideBaseView.swift; sourceTree = "<group>"; };
 		3FE1EAC45B317FF1557ACA4F8D3B55B1 /* Pods-Spacetagram-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Spacetagram-resources.sh"; sourceTree = "<group>"; };
-		4BDC3E84963BB213B74794665BDF5E6E /* PKHUDAnimating.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDAnimating.swift; path = PKHUD/PKHUDAnimating.swift; sourceTree = "<group>"; };
-		4F608204EE08CC4FC2AAB3ED1387451A /* PKHUDTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDTextView.swift; path = PKHUD/PKHUDTextView.swift; sourceTree = "<group>"; };
-		567430A532B6A8185672723E24795092 /* PKHUDAssets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDAssets.swift; path = PKHUD/PKHUDAssets.swift; sourceTree = "<group>"; };
-		57421122B8E228402F05D35C4AAC048C /* CLSAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSAttributes.h; path = iOS/Crashlytics.framework/Headers/CLSAttributes.h; sourceTree = "<group>"; };
-		59DCE101ECFB1C643BA44EA9CD25A06E /* ParallaxHeader.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ParallaxHeader.modulemap; sourceTree = "<group>"; };
-		61A9C087FF4807AC46D51657D9D1D1E0 /* PKHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PKHUD.h; path = PKHUD/PKHUD.h; sourceTree = "<group>"; };
-		639C67129DD3E4F481FD64395F32B8A3 /* CLSStackFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSStackFrame.h; path = iOS/Crashlytics.framework/Headers/CLSStackFrame.h; sourceTree = "<group>"; };
-		64B698760D40B6187761D8C2EB4664AF /* PKHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PKHUD-dummy.m"; sourceTree = "<group>"; };
-		6BF45A4E6020EA8DE2050157F47DCEEB /* FABAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FABAttributes.h; path = iOS/Fabric.framework/Headers/FABAttributes.h; sourceTree = "<group>"; };
-		6F54C0E7C0520495500303E5ECEE8AD0 /* CLSLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSLogging.h; path = iOS/Crashlytics.framework/Headers/CLSLogging.h; sourceTree = "<group>"; };
+		47C150256374A610E2BB452EA5192FA0 /* Crashlytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Crashlytics.h; path = iOS/Crashlytics.framework/Headers/Crashlytics.h; sourceTree = "<group>"; };
+		487A6576366DC38BD14DD9959E58096F /* PKHUDSuccessView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDSuccessView.swift; path = PKHUD/PKHUDSuccessView.swift; sourceTree = "<group>"; };
+		4A5CB0C354E66ACCF9DB352120B80E8C /* PKHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PKHUD-umbrella.h"; sourceTree = "<group>"; };
+		53B3DE0551586F98EDC4155E6ACD472B /* CLSReport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSReport.h; path = iOS/Crashlytics.framework/Headers/CLSReport.h; sourceTree = "<group>"; };
+		5506E9EF20833863854EF0C9FD3D161E /* PKHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PKHUD.h; path = PKHUD/PKHUD.h; sourceTree = "<group>"; };
+		61D88536E163F1A4FAC1E31C46BAC319 /* libGoogleMobileAds.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGoogleMobileAds.a; path = Libraries/libGoogleMobileAds.a; sourceTree = "<group>"; };
+		62CE26F0C6525539F9773AF9CCB83C0F /* PKHUDErrorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDErrorView.swift; path = PKHUD/PKHUDErrorView.swift; sourceTree = "<group>"; };
+		67BDFDBD45CBC9719B198943A8DC5481 /* Fabric.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Fabric.h; path = iOS/Fabric.framework/Headers/Fabric.h; sourceTree = "<group>"; };
+		6DEF17A4C3D6C823E69E60107DAFC124 /* Comets.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Comets.framework; path = Comets.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		709146B81436A6BC82C15B6E9B7223F1 /* WindowRootViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WindowRootViewController.swift; path = PKHUD/WindowRootViewController.swift; sourceTree = "<group>"; };
 		70B6796DD89D2767F688B0700DA49474 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7339DBF5D6ACDF59D90E34AEB80E0FC3 /* FABAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FABAttributes.h; path = iOS/Fabric.framework/Headers/FABAttributes.h; sourceTree = "<group>"; };
+		73A1E44CAFBC44FA8B9D062F48A28010 /* Answers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Answers.h; path = iOS/Crashlytics.framework/Headers/Answers.h; sourceTree = "<group>"; };
+		75F1CCADA0FD2B385CA1CED346F6A033 /* PKHUDAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDAnimation.swift; path = PKHUD/PKHUDAnimation.swift; sourceTree = "<group>"; };
 		760E8822B9ECFA5DA680B0EDB8361731 /* Pods-Spacetagram-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Spacetagram-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7C1909F229EB088C0598E2EB5B9B70C4 /* PKHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PKHUD-umbrella.h"; sourceTree = "<group>"; };
-		7F7F4323C013DE412891F31CA3B46D10 /* Answers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Answers.h; path = iOS/Crashlytics.framework/Headers/Answers.h; sourceTree = "<group>"; };
-		82F2E39D6766DCB1473FCAC00C9C7964 /* PKHUDSuccessView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDSuccessView.swift; path = PKHUD/PKHUDSuccessView.swift; sourceTree = "<group>"; };
-		84BBD1A2E1BA1FCFAC26639BCA2999DC /* ParallaxHeader-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ParallaxHeader-dummy.m"; sourceTree = "<group>"; };
-		864DB041ABB13548678EA47AE85521FB /* ParallaxHeader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ParallaxHeader.framework; path = ParallaxHeader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		87B8CEC3961022F5773918BED23E3A09 /* WindowRootViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WindowRootViewController.swift; path = PKHUD/WindowRootViewController.swift; sourceTree = "<group>"; };
-		907FFD377A731A5CEF1F3D12C5380ECB /* PKHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PKHUD.modulemap; sourceTree = "<group>"; };
+		86321332B84C77ED9753B019B40AC9F0 /* PKHUDAssets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDAssets.swift; path = PKHUD/PKHUDAssets.swift; sourceTree = "<group>"; };
+		882CE61495A7F400980BD188DB381B6A /* PKHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PKHUD-dummy.m"; sourceTree = "<group>"; };
+		8DC32745F932F799F965AA879F2CFBD3 /* PKHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PKHUD.modulemap; sourceTree = "<group>"; };
+		923ADFA463C23B171E1AD9489ED52E92 /* PKHUDTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDTextView.swift; path = PKHUD/PKHUDTextView.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9A501D1ABE6E68E990CE20AE6D21D7FA /* Fabric.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Fabric.h; path = iOS/Fabric.framework/Headers/Fabric.h; sourceTree = "<group>"; };
-		9A838AE88BBFBE12905E89CD4D79E009 /* PKHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PKHUD.framework; path = PKHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A960DFF930F8F13DF542C4C719AB46D /* PKHUDSquareBaseView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDSquareBaseView.swift; path = PKHUD/PKHUDSquareBaseView.swift; sourceTree = "<group>"; };
-		9BE0B5996D092ADF0A3F4895FAAA64AE /* PKHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PKHUD-prefix.pch"; sourceTree = "<group>"; };
-		9F9171E7E880175B493A1752069D92AE /* PKHUDWideBaseView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDWideBaseView.swift; path = PKHUD/PKHUDWideBaseView.swift; sourceTree = "<group>"; };
-		A29D803492F4197DB0890B6FF5835FD7 /* UIScrollView+ParallaxHeader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIScrollView+ParallaxHeader.swift"; path = "ParallaxHeader/UIScrollView+ParallaxHeader.swift"; sourceTree = "<group>"; };
-		A34B88B79550105E7FF30F76B8E0C64C /* PKHUDProgressView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDProgressView.swift; path = PKHUD/PKHUDProgressView.swift; sourceTree = "<group>"; };
+		944D4DE9CB9D24DF1D6A0F75F76EF6D3 /* Comets.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Comets.xcconfig; sourceTree = "<group>"; };
+		9B7F7C5574F3A54D0D762E6AB15555D1 /* Pods_Spacetagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Spacetagram.framework; path = "Pods-Spacetagram.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F4CAECCBA2D1C6E7BB7B0F56A965E89 /* PKHUDAnimating.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDAnimating.swift; path = PKHUD/PKHUDAnimating.swift; sourceTree = "<group>"; };
+		A06087CCC4B3B48EF195B42D66339C3C /* PKHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PKHUD.xcconfig; sourceTree = "<group>"; };
 		A9C1BE8A29A9561AF8B9D6A094CDAA7F /* Pods-Spacetagram-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Spacetagram-dummy.m"; sourceTree = "<group>"; };
-		AD3C97D6B0EA923E17CB47D7DF8A267A /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = PKHUD/Images.xcassets; sourceTree = "<group>"; };
-		B216BB8F66B65588788D4CAEEAF8967F /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Fabric.framework; path = iOS/Fabric.framework; sourceTree = "<group>"; };
-		BE0B4F3CA4F1B0C0B85A70A485F027B8 /* FrameView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FrameView.swift; path = PKHUD/FrameView.swift; sourceTree = "<group>"; };
+		B57347F619FA69966534CB7E520D6794 /* PKHUDRotatingImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDRotatingImageView.swift; path = PKHUD/PKHUDRotatingImageView.swift; sourceTree = "<group>"; };
+		B8004D71E00787A96A0CD344626B2FA9 /* FrameView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FrameView.swift; path = PKHUD/FrameView.swift; sourceTree = "<group>"; };
+		B8FACE0FAC82A3155DE0C4F17CEDEA19 /* PKHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PKHUD.framework; path = PKHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA6ECF75E89198033EDDD5C9A28D9ABC /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = Frameworks/frameworks/GoogleMobileAds.framework; sourceTree = "<group>"; };
 		C504E019F8B44F942D12EF5493C091C7 /* Pods-Spacetagram-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Spacetagram-umbrella.h"; sourceTree = "<group>"; };
-		C69B3A0B907904D6E8258A345BE3A210 /* ParallaxHeader.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ParallaxHeader.xcconfig; sourceTree = "<group>"; };
-		C935F45BE7FE6D98D732047A9E2AC00F /* PKHUD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUD.swift; path = PKHUD/PKHUD.swift; sourceTree = "<group>"; };
-		CB04542724780A32BE5F6E1BEBA8A88D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CB1DD2EE378F2E8F8308D8BD57C95289 /* CLSReport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSReport.h; path = iOS/Crashlytics.framework/Headers/CLSReport.h; sourceTree = "<group>"; };
+		C5642C0B084FFE8A95D09161B1A9F77A /* Comets-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Comets-umbrella.h"; sourceTree = "<group>"; };
+		CF915A831ED6294E151C70FDDDED1C99 /* Comets-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Comets-dummy.m"; sourceTree = "<group>"; };
 		D01DC9973076BBF89E8C9A39455D1B27 /* Pods-Spacetagram-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Spacetagram-frameworks.sh"; sourceTree = "<group>"; };
-		D56D76DA5E0D3584A9F1A16222BDC947 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Crashlytics.framework; path = iOS/Crashlytics.framework; sourceTree = "<group>"; };
+		D06AE40E7FC8390C1838215ADBEB4F9F /* CLSAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSAttributes.h; path = iOS/Crashlytics.framework/Headers/CLSAttributes.h; sourceTree = "<group>"; };
+		D6120B55D48A071986932F5666879FBD /* CLSStackFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSStackFrame.h; path = iOS/Crashlytics.framework/Headers/CLSStackFrame.h; sourceTree = "<group>"; };
 		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		E4821CAFA57782924763AB846AA648A8 /* ParallaxHeader-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ParallaxHeader-prefix.pch"; sourceTree = "<group>"; };
-		E510AA59A323983956AE4E13B10D6927 /* libGoogleMobileAds.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGoogleMobileAds.a; path = Libraries/libGoogleMobileAds.a; sourceTree = "<group>"; };
-		F486EB4A85CEF4102D4C806C519F47E3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F683A6A1AB9BD4B01417FA51F37B1A22 /* PKHUDRotatingImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDRotatingImageView.swift; path = PKHUD/PKHUDRotatingImageView.swift; sourceTree = "<group>"; };
-		FA0B04A2970E3A795BEA5F63D3F4CEBD /* PKHUDAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDAnimation.swift; path = PKHUD/PKHUDAnimation.swift; sourceTree = "<group>"; };
+		DD0494F32FEDF478FF67649A898EDA2E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF1FACAB4FE6885DFB9A553E41DC7DF1 /* PKHUD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUD.swift; path = PKHUD/PKHUD.swift; sourceTree = "<group>"; };
+		E10148166AF3BC740E9DF1EC84168E42 /* Comet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Comet.swift; path = Comets/Sources/Comet.swift; sourceTree = "<group>"; };
+		E59284B554DCAD9FBD228BC48D6125B8 /* UIImage+Rotate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+Rotate.swift"; path = "Comets/Sources/UIImage+Rotate.swift"; sourceTree = "<group>"; };
+		F0E940A597C6E79878633323F878A41B /* PKHUDSquareBaseView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDSquareBaseView.swift; path = PKHUD/PKHUDSquareBaseView.swift; sourceTree = "<group>"; };
+		F5139493B79F52C3326ECB82FEE1A613 /* CLSLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSLogging.h; path = iOS/Crashlytics.framework/Headers/CLSLogging.h; sourceTree = "<group>"; };
+		FBF8FAD750C1F0B4720C9290593066BA /* PKHUDResources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = PKHUDResources.bundle; path = "PKHUD-PKHUDResources.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD73E7A0F6F5786D13210FE055B000A2 /* Pods-Spacetagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Spacetagram.release.xcconfig"; sourceTree = "<group>"; };
+		FDDEC9921121C49BC530C9D001D2DECF /* Comets.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Comets.modulemap; sourceTree = "<group>"; };
+		FEE59ED7399A01CC7C1FF4C9CE27E79B /* PKHUDProgressView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDProgressView.swift; path = PKHUD/PKHUDProgressView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3008DC1A6D9D524BE9BA3A41A1D0FBE0 /* Frameworks */ = {
+		18CD16AFFC77EFE8012D107D22DEF460 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77F0259A1D06F45CC9A4FB18661C079A /* Foundation.framework in Frameworks */,
+				111E939949D801E4AEAC7EF86A6BA133 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,11 +145,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		62A546ADD2C8E95A8E66F9FC32265D87 /* Frameworks */ = {
+		826DCB1600B8D50A580972929227A25A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92F8FD877A3FE627B65E403EAB6DE208 /* Foundation.framework in Frameworks */,
+				C39113142D55BF19544D120DFD699A74 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,36 +163,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		05EB41C853329DF367C04D6A00646C2B /* Frameworks */ = {
+		2E482888E8F62CE0C39F7F173F032E10 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D56D76DA5E0D3584A9F1A16222BDC947 /* Crashlytics.framework */,
+				281C1AEB8B84C5C65AC0303E35594433 /* Fabric.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		3DA6F975BB77F343D571572AB5DAC1C4 /* Crashlytics */ = {
+		3CDA6174E013034E7D80A2DE6247A13A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2B7A0434923D98C6A14245E4650634CD /* ANSCompatibility.h */,
-				7F7F4323C013DE412891F31CA3B46D10 /* Answers.h */,
-				57421122B8E228402F05D35C4AAC048C /* CLSAttributes.h */,
-				6F54C0E7C0520495500303E5ECEE8AD0 /* CLSLogging.h */,
-				CB1DD2EE378F2E8F8308D8BD57C95289 /* CLSReport.h */,
-				639C67129DD3E4F481FD64395F32B8A3 /* CLSStackFrame.h */,
-				36EBF7070A63E663C4FFD0240AA302C3 /* Crashlytics.h */,
-				05EB41C853329DF367C04D6A00646C2B /* Frameworks */,
+				6DEF17A4C3D6C823E69E60107DAFC124 /* Comets.framework */,
+				B8FACE0FAC82A3155DE0C4F17CEDEA19 /* PKHUD.framework */,
+				FBF8FAD750C1F0B4720C9290593066BA /* PKHUDResources.bundle */,
+				9B7F7C5574F3A54D0D762E6AB15555D1 /* Pods_Spacetagram.framework */,
 			);
-			name = Crashlytics;
-			path = Crashlytics;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		3E652B1513E9769C8D718BCDD11906BB /* Frameworks */ = {
+		44959E9173C894844FC174846D77FE39 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				B216BB8F66B65588788D4CAEEAF8967F /* Fabric.framework */,
+				02A0307C0516043421A9D8196D965B2B /* Images.xcassets */,
 			);
-			name = Frameworks;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		44D5347904CF754D6785B84253F2574A /* iOS */ = {
@@ -205,24 +198,40 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		6CB62BBAA84EF1A75C29F91BDAFC477D /* Google-Mobile-Ads-SDK */ = {
+		6F56434E95C9915DD8D19B3AA063C261 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FC550B5995A73D3C568C02F5DB359B07 /* Frameworks */,
+				BA6ECF75E89198033EDDD5C9A28D9ABC /* GoogleMobileAds.framework */,
+				61D88536E163F1A4FAC1E31C46BAC319 /* libGoogleMobileAds.a */,
 			);
-			name = "Google-Mobile-Ads-SDK";
-			path = "Google-Mobile-Ads-SDK";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		7B7242A3EE6379A4CF6BE10CD7498474 /* Products */ = {
+		7B1F0B682EF599B596224F1E0F319408 /* PKHUD */ = {
 			isa = PBXGroup;
 			children = (
-				864DB041ABB13548678EA47AE85521FB /* ParallaxHeader.framework */,
-				9A838AE88BBFBE12905E89CD4D79E009 /* PKHUD.framework */,
-				1334B87C95BE5C239782594DD1127763 /* PKHUDResources.bundle */,
-				00A70FC22116F15A27042B581E8F288F /* Pods_Spacetagram.framework */,
+				B8004D71E00787A96A0CD344626B2FA9 /* FrameView.swift */,
+				013043A4A02147726FACD60A6B794BF5 /* HUD.swift */,
+				5506E9EF20833863854EF0C9FD3D161E /* PKHUD.h */,
+				DF1FACAB4FE6885DFB9A553E41DC7DF1 /* PKHUD.swift */,
+				9F4CAECCBA2D1C6E7BB7B0F56A965E89 /* PKHUDAnimating.swift */,
+				75F1CCADA0FD2B385CA1CED346F6A033 /* PKHUDAnimation.swift */,
+				86321332B84C77ED9753B019B40AC9F0 /* PKHUDAssets.swift */,
+				62CE26F0C6525539F9773AF9CCB83C0F /* PKHUDErrorView.swift */,
+				FEE59ED7399A01CC7C1FF4C9CE27E79B /* PKHUDProgressView.swift */,
+				B57347F619FA69966534CB7E520D6794 /* PKHUDRotatingImageView.swift */,
+				F0E940A597C6E79878633323F878A41B /* PKHUDSquareBaseView.swift */,
+				487A6576366DC38BD14DD9959E58096F /* PKHUDSuccessView.swift */,
+				03877EA354D71CCD580C92E9F21D7444 /* PKHUDSystemActivityIndicatorView.swift */,
+				923ADFA463C23B171E1AD9489ED52E92 /* PKHUDTextView.swift */,
+				39B45E1EBB3948D00BF6BC5AF20E77BF /* PKHUDWideBaseView.swift */,
+				10C337F1E1F9DBF893A6A80E6000492E /* Window.swift */,
+				709146B81436A6BC82C15B6E9B7223F1 /* WindowRootViewController.swift */,
+				44959E9173C894844FC174846D77FE39 /* Resources */,
+				8E1335DF7543960F77F08911AC16CC82 /* Support Files */,
 			);
-			name = Products;
+			name = PKHUD;
+			path = PKHUD;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -230,32 +239,65 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				C164466AF229F0B8035525B77AAF5884 /* Pods */,
-				7B7242A3EE6379A4CF6BE10CD7498474 /* Products */,
+				90A5836C52124FB92A1DE32C3D3545F5 /* Pods */,
+				3CDA6174E013034E7D80A2DE6247A13A /* Products */,
 				BC58EE3CB431D7A58D1B1E739DBDC86E /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8C43688AB1C92FCC70586201683DF655 /* Support Files */ = {
+		7E9F20DD0D434F1D8BC9B4F082A2B130 /* Fabric */ = {
 			isa = PBXGroup;
 			children = (
-				CB04542724780A32BE5F6E1BEBA8A88D /* Info.plist */,
-				59DCE101ECFB1C643BA44EA9CD25A06E /* ParallaxHeader.modulemap */,
-				C69B3A0B907904D6E8258A345BE3A210 /* ParallaxHeader.xcconfig */,
-				84BBD1A2E1BA1FCFAC26639BCA2999DC /* ParallaxHeader-dummy.m */,
-				E4821CAFA57782924763AB846AA648A8 /* ParallaxHeader-prefix.pch */,
-				3097A7DDFC5584D9D7D4FC20EDED5F9B /* ParallaxHeader-umbrella.h */,
+				7339DBF5D6ACDF59D90E34AEB80E0FC3 /* FABAttributes.h */,
+				67BDFDBD45CBC9719B198943A8DC5481 /* Fabric.h */,
+				2E482888E8F62CE0C39F7F173F032E10 /* Frameworks */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/ParallaxHeader";
+			name = Fabric;
+			path = Fabric;
 			sourceTree = "<group>";
 		};
-		ABE7BEA0EA9B41C62556B984892B0C10 /* Resources */ = {
+		8E1335DF7543960F77F08911AC16CC82 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				AD3C97D6B0EA923E17CB47D7DF8A267A /* Images.xcassets */,
+				DD0494F32FEDF478FF67649A898EDA2E /* Info.plist */,
+				8DC32745F932F799F965AA879F2CFBD3 /* PKHUD.modulemap */,
+				A06087CCC4B3B48EF195B42D66339C3C /* PKHUD.xcconfig */,
+				882CE61495A7F400980BD188DB381B6A /* PKHUD-dummy.m */,
+				12D0C188DD13E8E786531F137ED95C5C /* PKHUD-prefix.pch */,
+				4A5CB0C354E66ACCF9DB352120B80E8C /* PKHUD-umbrella.h */,
+				0A0E9038BC0B13F524DAD3B91EB15C30 /* ResourceBundle-PKHUDResources-Info.plist */,
 			);
-			name = Resources;
+			name = "Support Files";
+			path = "../Target Support Files/PKHUD";
+			sourceTree = "<group>";
+		};
+		90A5836C52124FB92A1DE32C3D3545F5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DFE9166C7022728071758BD81476D9F1 /* Comets */,
+				E0E8CD20F2142DFBACA063CDC4E1E9FB /* Crashlytics */,
+				7E9F20DD0D434F1D8BC9B4F082A2B130 /* Fabric */,
+				B617CF23F02E6B0F1F015045054628F8 /* Google-Mobile-Ads-SDK */,
+				7B1F0B682EF599B596224F1E0F319408 /* PKHUD */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B617CF23F02E6B0F1F015045054628F8 /* Google-Mobile-Ads-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				6F56434E95C9915DD8D19B3AA063C261 /* Frameworks */,
+			);
+			name = "Google-Mobile-Ads-SDK";
+			path = "Google-Mobile-Ads-SDK";
+			sourceTree = "<group>";
+		};
+		BB6842653DFF71ACB9C49FB819243FE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07993C8186D9B11E56A0E757DC516251 /* Crashlytics.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -272,33 +314,6 @@
 				C8EFCD5A7D5F4261E6D68949BD0CAF94 /* Pods-Spacetagram */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		BD8C1415B184EFC366BAF7214D2ABE93 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F486EB4A85CEF4102D4C806C519F47E3 /* Info.plist */,
-				907FFD377A731A5CEF1F3D12C5380ECB /* PKHUD.modulemap */,
-				3D7B73B2C3D4DBE8F11E927E416BF093 /* PKHUD.xcconfig */,
-				64B698760D40B6187761D8C2EB4664AF /* PKHUD-dummy.m */,
-				9BE0B5996D092ADF0A3F4895FAAA64AE /* PKHUD-prefix.pch */,
-				7C1909F229EB088C0598E2EB5B9B70C4 /* PKHUD-umbrella.h */,
-				2DBB756D33E726DB90F927F0A8EF6561 /* ResourceBundle-PKHUDResources-Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/PKHUD";
-			sourceTree = "<group>";
-		};
-		C164466AF229F0B8035525B77AAF5884 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				3DA6F975BB77F343D571572AB5DAC1C4 /* Crashlytics */,
-				F61F57BBF574970623F18B088FE43679 /* Fabric */,
-				6CB62BBAA84EF1A75C29F91BDAFC477D /* Google-Mobile-Ads-SDK */,
-				FE6C622D2140C0E1DF4708F71E411558 /* ParallaxHeader */,
-				DBD304E13C4ED1DBA882272021124C6C /* PKHUD */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		C8EFCD5A7D5F4261E6D68949BD0CAF94 /* Pods-Spacetagram */ = {
@@ -319,76 +334,50 @@
 			path = "Target Support Files/Pods-Spacetagram";
 			sourceTree = "<group>";
 		};
-		DBD304E13C4ED1DBA882272021124C6C /* PKHUD */ = {
+		D349DF7FA0FAC8037C87A3F53A0259FB /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				BE0B4F3CA4F1B0C0B85A70A485F027B8 /* FrameView.swift */,
-				2FF04CE16E91844E60699401EBABDD11 /* HUD.swift */,
-				61A9C087FF4807AC46D51657D9D1D1E0 /* PKHUD.h */,
-				C935F45BE7FE6D98D732047A9E2AC00F /* PKHUD.swift */,
-				4BDC3E84963BB213B74794665BDF5E6E /* PKHUDAnimating.swift */,
-				FA0B04A2970E3A795BEA5F63D3F4CEBD /* PKHUDAnimation.swift */,
-				567430A532B6A8185672723E24795092 /* PKHUDAssets.swift */,
-				122DDC61B61ABC66BBCE6F05FA7315B1 /* PKHUDErrorView.swift */,
-				A34B88B79550105E7FF30F76B8E0C64C /* PKHUDProgressView.swift */,
-				F683A6A1AB9BD4B01417FA51F37B1A22 /* PKHUDRotatingImageView.swift */,
-				9A960DFF930F8F13DF542C4C719AB46D /* PKHUDSquareBaseView.swift */,
-				82F2E39D6766DCB1473FCAC00C9C7964 /* PKHUDSuccessView.swift */,
-				0C7FF163DF33E4DAA092922DDC7C6002 /* PKHUDSystemActivityIndicatorView.swift */,
-				4F608204EE08CC4FC2AAB3ED1387451A /* PKHUDTextView.swift */,
-				9F9171E7E880175B493A1752069D92AE /* PKHUDWideBaseView.swift */,
-				33AC225022911D197B6A2125E507E789 /* Window.swift */,
-				87B8CEC3961022F5773918BED23E3A09 /* WindowRootViewController.swift */,
-				ABE7BEA0EA9B41C62556B984892B0C10 /* Resources */,
-				BD8C1415B184EFC366BAF7214D2ABE93 /* Support Files */,
+				FDDEC9921121C49BC530C9D001D2DECF /* Comets.modulemap */,
+				944D4DE9CB9D24DF1D6A0F75F76EF6D3 /* Comets.xcconfig */,
+				CF915A831ED6294E151C70FDDDED1C99 /* Comets-dummy.m */,
+				03505B62F5BA5EB0167AB8D50A8E1A26 /* Comets-prefix.pch */,
+				C5642C0B084FFE8A95D09161B1A9F77A /* Comets-umbrella.h */,
+				21447DE8B3F79FE0AE695352E83676FD /* Info.plist */,
 			);
-			name = PKHUD;
-			path = PKHUD;
+			name = "Support Files";
+			path = "../Target Support Files/Comets";
 			sourceTree = "<group>";
 		};
-		F61F57BBF574970623F18B088FE43679 /* Fabric */ = {
+		DFE9166C7022728071758BD81476D9F1 /* Comets */ = {
 			isa = PBXGroup;
 			children = (
-				6BF45A4E6020EA8DE2050157F47DCEEB /* FABAttributes.h */,
-				9A501D1ABE6E68E990CE20AE6D21D7FA /* Fabric.h */,
-				3E652B1513E9769C8D718BCDD11906BB /* Frameworks */,
+				E10148166AF3BC740E9DF1EC84168E42 /* Comet.swift */,
+				E59284B554DCAD9FBD228BC48D6125B8 /* UIImage+Rotate.swift */,
+				D349DF7FA0FAC8037C87A3F53A0259FB /* Support Files */,
 			);
-			name = Fabric;
-			path = Fabric;
+			name = Comets;
+			path = Comets;
 			sourceTree = "<group>";
 		};
-		FC550B5995A73D3C568C02F5DB359B07 /* Frameworks */ = {
+		E0E8CD20F2142DFBACA063CDC4E1E9FB /* Crashlytics */ = {
 			isa = PBXGroup;
 			children = (
-				11FEC27BD4B453F316D64EBD5FCC68B7 /* GoogleMobileAds.framework */,
-				E510AA59A323983956AE4E13B10D6927 /* libGoogleMobileAds.a */,
+				2D9B86947BB1C6CAF6D92E79F638CDAC /* ANSCompatibility.h */,
+				73A1E44CAFBC44FA8B9D062F48A28010 /* Answers.h */,
+				D06AE40E7FC8390C1838215ADBEB4F9F /* CLSAttributes.h */,
+				F5139493B79F52C3326ECB82FEE1A613 /* CLSLogging.h */,
+				53B3DE0551586F98EDC4155E6ACD472B /* CLSReport.h */,
+				D6120B55D48A071986932F5666879FBD /* CLSStackFrame.h */,
+				47C150256374A610E2BB452EA5192FA0 /* Crashlytics.h */,
+				BB6842653DFF71ACB9C49FB819243FE8 /* Frameworks */,
 			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		FE6C622D2140C0E1DF4708F71E411558 /* ParallaxHeader */ = {
-			isa = PBXGroup;
-			children = (
-				309523C694BDA5097348AE1AF85C95E6 /* ParallaxHeader.swift */,
-				229941B1425518B82CD6C68FA006EBE6 /* ParallaxHeaderMode.swift */,
-				A29D803492F4197DB0890B6FF5835FD7 /* UIScrollView+ParallaxHeader.swift */,
-				8C43688AB1C92FCC70586201683DF655 /* Support Files */,
-			);
-			name = ParallaxHeader;
-			path = ParallaxHeader;
+			name = Crashlytics;
+			path = Crashlytics;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		29EEBAED6EE7EFAC34BCC598C0B4B32D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				56B248BFE0536E51DAEE0B50FCA1D34A /* ParallaxHeader-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		46D5972DE07B4B80CB6237E0A8864BA1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -398,11 +387,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		634E7A040AB335A7127204AEB993B894 /* Headers */ = {
+		8BCDBBBD00DADC2CFFC5165400C112BA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A0415F30265763B2C1A9FA24EFACBC1 /* Pods-Spacetagram-umbrella.h in Headers */,
+				CBF2A7EC68B21B7EE07CA6FA4CB20AAE /* Comets-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2BA196E0F558D76D96B51262FE2748B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0547D6163F87637E476532F0E69FC5C /* Pods-Spacetagram-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,45 +422,45 @@
 			);
 			name = PKHUD;
 			productName = PKHUD;
-			productReference = 9A838AE88BBFBE12905E89CD4D79E009 /* PKHUD.framework */;
+			productReference = B8FACE0FAC82A3155DE0C4F17CEDEA19 /* PKHUD.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		17C95B72A8E66F15D88471393C619B58 /* ParallaxHeader */ = {
+		0D8C7851DFE5705E46C6FB7E7425EEAD /* Comets */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B045C202FE8F534B618CED2B7B7B6594 /* Build configuration list for PBXNativeTarget "ParallaxHeader" */;
+			buildConfigurationList = 8AB36E4873C50E233F1A49E34A0DB4EC /* Build configuration list for PBXNativeTarget "Comets" */;
 			buildPhases = (
-				29EEBAED6EE7EFAC34BCC598C0B4B32D /* Headers */,
-				0FF439FFF943BC3BC5E290C4A2591254 /* Sources */,
-				62A546ADD2C8E95A8E66F9FC32265D87 /* Frameworks */,
-				8B051F4FFF73FCF716BC85FF567DE9BF /* Resources */,
+				8BCDBBBD00DADC2CFFC5165400C112BA /* Headers */,
+				CA9E7C014AA735456BA2FDFE354A7C10 /* Sources */,
+				826DCB1600B8D50A580972929227A25A /* Frameworks */,
+				969E3C755416BB9C35C366C44D8643A6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ParallaxHeader;
-			productName = ParallaxHeader;
-			productReference = 864DB041ABB13548678EA47AE85521FB /* ParallaxHeader.framework */;
+			name = Comets;
+			productName = Comets;
+			productReference = 6DEF17A4C3D6C823E69E60107DAFC124 /* Comets.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		3F0F0F45D0903835B26E16199F21AB6E /* Pods-Spacetagram */ = {
+		48212616302701F0EB14CA12E2165492 /* Pods-Spacetagram */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 15ACD1D964DA29FE992CABE7FEEC6AA4 /* Build configuration list for PBXNativeTarget "Pods-Spacetagram" */;
+			buildConfigurationList = 56614E0B9D2A03C73BA752A51B73CE2F /* Build configuration list for PBXNativeTarget "Pods-Spacetagram" */;
 			buildPhases = (
-				634E7A040AB335A7127204AEB993B894 /* Headers */,
-				FE7B6FECB86C67AB4D0C0BFB3FAE3210 /* Sources */,
-				3008DC1A6D9D524BE9BA3A41A1D0FBE0 /* Frameworks */,
-				0B529BCAB4ED9B023EF5D83C6F43C8B0 /* Resources */,
+				E2BA196E0F558D76D96B51262FE2748B /* Headers */,
+				86186905D6D0FD80D064C64433052503 /* Sources */,
+				18CD16AFFC77EFE8012D107D22DEF460 /* Frameworks */,
+				FC0F95065C7ABE88983D6E01ADC8F79F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				57809DB8525CCD9D9FF4899C7062992B /* PBXTargetDependency */,
-				5692445B5E7BC126D261395D371895AC /* PBXTargetDependency */,
+				176360B90F9F15B4F18DA68225546249 /* PBXTargetDependency */,
+				5E03B47C5B8B154BF44B652C588DB98E /* PBXTargetDependency */,
 			);
 			name = "Pods-Spacetagram";
 			productName = "Pods-Spacetagram";
-			productReference = 00A70FC22116F15A27042B581E8F288F /* Pods_Spacetagram.framework */;
+			productReference = 9B7F7C5574F3A54D0D762E6AB15555D1 /* Pods_Spacetagram.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		4C3315A1ABAE8BC33824D088C610C951 /* PKHUD-PKHUDResources */ = {
@@ -480,7 +477,7 @@
 			);
 			name = "PKHUD-PKHUDResources";
 			productName = "PKHUD-PKHUDResources";
-			productReference = 1334B87C95BE5C239782594DD1127763 /* PKHUDResources.bundle */;
+			productReference = FBF8FAD750C1F0B4720C9290593066BA /* PKHUDResources.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -500,14 +497,14 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 7B7242A3EE6379A4CF6BE10CD7498474 /* Products */;
+			productRefGroup = 3CDA6174E013034E7D80A2DE6247A13A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				17C95B72A8E66F15D88471393C619B58 /* ParallaxHeader */,
+				0D8C7851DFE5705E46C6FB7E7425EEAD /* Comets */,
 				0422742DF5CC42F97485A5A4607BBEE9 /* PKHUD */,
 				4C3315A1ABAE8BC33824D088C610C951 /* PKHUD-PKHUDResources */,
-				3F0F0F45D0903835B26E16199F21AB6E /* Pods-Spacetagram */,
+				48212616302701F0EB14CA12E2165492 /* Pods-Spacetagram */,
 			);
 		};
 /* End PBXProject section */
@@ -521,13 +518,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0B529BCAB4ED9B023EF5D83C6F43C8B0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		24D8FE0F203AF51C109E11B445C23B82 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -536,7 +526,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8B051F4FFF73FCF716BC85FF567DE9BF /* Resources */ = {
+		969E3C755416BB9C35C366C44D8643A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC0F95065C7ABE88983D6E01ADC8F79F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -550,17 +547,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0FF439FFF943BC3BC5E290C4A2591254 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B9DC48D46DEB78E0C409544B4D2BE4F6 /* ParallaxHeader-dummy.m in Sources */,
-				86B6559960A8722CF10288E54CF2FF6A /* ParallaxHeader.swift in Sources */,
-				B73DF2B6DA3D33788C211E6C8FE8D45E /* ParallaxHeaderMode.swift in Sources */,
-				FAED3D47A2758410F9F1088BFF5B30D5 /* UIScrollView+ParallaxHeader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -588,11 +574,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FE7B6FECB86C67AB4D0C0BFB3FAE3210 /* Sources */ = {
+		86186905D6D0FD80D064C64433052503 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC340240B347A14052A024F745BCA2D3 /* Pods-Spacetagram-dummy.m in Sources */,
+				D27536F8C3C9923777AE9C7CEE6A26A3 /* Pods-Spacetagram-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA9E7C014AA735456BA2FDFE354A7C10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18633956C22E9035A8773C735828DD8B /* Comet.swift in Sources */,
+				D623905E75C43F8D2297D4F7DD0829C6 /* Comets-dummy.m in Sources */,
+				F184A6BD95060E28F3CD604B3216F88D /* UIImage+Rotate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -605,24 +601,24 @@
 			target = 4C3315A1ABAE8BC33824D088C610C951 /* PKHUD-PKHUDResources */;
 			targetProxy = E0883D7F7AB2ACD8990E5C3D4857446A /* PBXContainerItemProxy */;
 		};
-		5692445B5E7BC126D261395D371895AC /* PBXTargetDependency */ = {
+		176360B90F9F15B4F18DA68225546249 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = ParallaxHeader;
-			target = 17C95B72A8E66F15D88471393C619B58 /* ParallaxHeader */;
-			targetProxy = B7F24BC5519608F608CDE7542349DDAA /* PBXContainerItemProxy */;
+			name = Comets;
+			target = 0D8C7851DFE5705E46C6FB7E7425EEAD /* Comets */;
+			targetProxy = 9EED8ADD1874F900A388ECEC504B44C3 /* PBXContainerItemProxy */;
 		};
-		57809DB8525CCD9D9FF4899C7062992B /* PBXTargetDependency */ = {
+		5E03B47C5B8B154BF44B652C588DB98E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PKHUD;
 			target = 0422742DF5CC42F97485A5A4607BBEE9 /* PKHUD */;
-			targetProxy = 840E67E463E8C26EE0BCEED552E6B117 /* PBXContainerItemProxy */;
+			targetProxy = 7CD21DC9BFC02AD74EB3FE0624116B88 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		0BEAE452BF3F56BA3D3196B403CB2355 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3D7B73B2C3D4DBE8F11E927E416BF093 /* PKHUD.xcconfig */;
+			baseConfigurationReference = A06087CCC4B3B48EF195B42D66339C3C /* PKHUD.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PKHUD";
@@ -636,9 +632,9 @@
 			};
 			name = Release;
 		};
-		56229DA73E4DB5864472B51D13ABBA01 /* Release */ = {
+		43E101F65BEAAC1F767908B1CBD2F0DC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C69B3A0B907904D6E8258A345BE3A210 /* ParallaxHeader.xcconfig */;
+			baseConfigurationReference = 944D4DE9CB9D24DF1D6A0F75F76EF6D3 /* Comets.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -649,79 +645,82 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ParallaxHeader/ParallaxHeader-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ParallaxHeader/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Comets/Comets-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Comets/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/ParallaxHeader/ParallaxHeader.modulemap";
-				PRODUCT_MODULE_NAME = ParallaxHeader;
-				PRODUCT_NAME = ParallaxHeader;
+				MODULEMAP_FILE = "Target Support Files/Comets/Comets.modulemap";
+				PRODUCT_MODULE_NAME = Comets;
+				PRODUCT_NAME = Comets;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		734A472121F9303C9EB01B8AA6C4439C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A06087CCC4B3B48EF195B42D66339C3C /* PKHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PKHUD";
+				INFOPLIST_FILE = "Target Support Files/PKHUD/ResourceBundle-PKHUDResources-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = PKHUDResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		A7DB73D6BFE18A7D0EB78FC48171136C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD73E7A0F6F5786D13210FE055B000A2 /* Pods-Spacetagram.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Spacetagram/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Spacetagram/Pods-Spacetagram.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		734A472121F9303C9EB01B8AA6C4439C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3D7B73B2C3D4DBE8F11E927E416BF093 /* PKHUD.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PKHUD";
-				INFOPLIST_FILE = "Target Support Files/PKHUD/ResourceBundle-PKHUDResources-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = PKHUDResources;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		ABEB8ED171CC875FD29B9E5D01871EED /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C69B3A0B907904D6E8258A345BE3A210 /* ParallaxHeader.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ParallaxHeader/ParallaxHeader-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ParallaxHeader/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/ParallaxHeader/ParallaxHeader.modulemap";
-				PRODUCT_MODULE_NAME = ParallaxHeader;
-				PRODUCT_NAME = ParallaxHeader;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		BB044C4AFAC2A37F66D023639C0B5841 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -851,7 +850,78 @@
 			};
 			name = Release;
 		};
-		E3CF3D7858B3481DF4C9F91DE1FF714E /* Debug */ = {
+		E8DA8368425C4B13249EC4DA006DB0CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A06087CCC4B3B48EF195B42D66339C3C /* PKHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PKHUD/PKHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PKHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PKHUD/PKHUD.modulemap";
+				PRODUCT_MODULE_NAME = PKHUD;
+				PRODUCT_NAME = PKHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EB484C303FF06CFF4EC5FA5659166A36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 944D4DE9CB9D24DF1D6A0F75F76EF6D3 /* Comets.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Comets/Comets-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Comets/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Comets/Comets.modulemap";
+				PRODUCT_MODULE_NAME = Comets;
+				PRODUCT_NAME = Comets;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F6397EAFCAE0611C9AF84EEDE30F2CC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 31859F373BBACC185935CE5A66B55A4C /* Pods-Spacetagram.debug.xcconfig */;
 			buildSettings = {
@@ -889,83 +959,9 @@
 			};
 			name = Debug;
 		};
-		E8DA8368425C4B13249EC4DA006DB0CD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3D7B73B2C3D4DBE8F11E927E416BF093 /* PKHUD.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/PKHUD/PKHUD-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PKHUD/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/PKHUD/PKHUD.modulemap";
-				PRODUCT_MODULE_NAME = PKHUD;
-				PRODUCT_NAME = PKHUD;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		F1A955A4176836859038DD36796C453B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FD73E7A0F6F5786D13210FE055B000A2 /* Pods-Spacetagram.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Spacetagram/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Spacetagram/Pods-Spacetagram.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		F64093E6B831B0858C226F98042BDFED /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3D7B73B2C3D4DBE8F11E927E416BF093 /* PKHUD.xcconfig */;
+			baseConfigurationReference = A06087CCC4B3B48EF195B42D66339C3C /* PKHUD.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1002,20 +998,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		15ACD1D964DA29FE992CABE7FEEC6AA4 /* Build configuration list for PBXNativeTarget "Pods-Spacetagram" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E3CF3D7858B3481DF4C9F91DE1FF714E /* Debug */,
-				F1A955A4176836859038DD36796C453B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BB044C4AFAC2A37F66D023639C0B5841 /* Debug */,
 				C8F6AD84CD9EBD21EE14F83C2F3C21E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56614E0B9D2A03C73BA752A51B73CE2F /* Build configuration list for PBXNativeTarget "Pods-Spacetagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6397EAFCAE0611C9AF84EEDE30F2CC4 /* Debug */,
+				A7DB73D6BFE18A7D0EB78FC48171136C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1038,11 +1034,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B045C202FE8F534B618CED2B7B7B6594 /* Build configuration list for PBXNativeTarget "ParallaxHeader" */ = {
+		8AB36E4873C50E233F1A49E34A0DB4EC /* Build configuration list for PBXNativeTarget "Comets" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ABEB8ED171CC875FD29B9E5D01871EED /* Debug */,
-				56229DA73E4DB5864472B51D13ABBA01 /* Release */,
+				43E101F65BEAAC1F767908B1CBD2F0DC /* Debug */,
+				EB484C303FF06CFF4EC5FA5659166A36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

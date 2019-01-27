@@ -16,4 +16,4 @@ enum Backend {
 
 let imageAnimationDuration: TimeInterval = 0.3
 let requestTimeout: TimeInterval = 3.0
-let motionEffectsRange: CGFloat = 10
+let motionEffectsRange: CGFloat = 20

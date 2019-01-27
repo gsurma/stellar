@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double ParallaxHeaderVersionNumber;
-FOUNDATION_EXPORT const unsigned char ParallaxHeaderVersionString[];
+FOUNDATION_EXPORT double CometsVersionNumber;
+FOUNDATION_EXPORT const unsigned char CometsVersionString[];
 
