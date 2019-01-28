@@ -14,6 +14,12 @@ enum Backend {
     static let host = "https://api.nasa.gov"
 }
 
-let imageAnimationDuration: TimeInterval = 0.5
-let requestTimeout: TimeInterval = 3.0
+enum AdMob {
+    static let appId = "ca-app-pub-1103168157406012~7048325556"
+    static let interstitial = "ca-app-pub-1103168157406012/1604427186"
+}
+
+let intervalBetweenPrompts = 5
+let imageAnimationDuration: TimeInterval = 1.5
+let requestTimeout: TimeInterval = 5.0
 let motionEffectsRange: CGFloat = 20

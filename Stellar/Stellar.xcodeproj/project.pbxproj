@@ -7,22 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2A1F5D3B320EAD4329982259 /* Pods_Spacetagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E573098B1009A4B0996AC88 /* Pods_Spacetagram.framework */; };
+		600D69C421FE9552006EBB88 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600D69C321FE9552006EBB88 /* UserDefaults.swift */; };
+		600D69C621FE96C4006EBB88 /* Arrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600D69C521FE96C4006EBB88 /* Arrays.swift */; };
 		6028FE6521FD474A004026C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6028FE6421FD474A004026C5 /* AppDelegate.swift */; };
 		6028FE6721FD474A004026C5 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6028FE6621FD474A004026C5 /* MainViewController.swift */; };
 		6028FE6A21FD474A004026C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6028FE6821FD474A004026C5 /* Main.storyboard */; };
 		6028FE6C21FD474C004026C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6028FE6B21FD474C004026C5 /* Assets.xcassets */; };
 		6028FE6F21FD474C004026C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6028FE6D21FD474C004026C5 /* LaunchScreen.storyboard */; };
 		6028FE7821FD4887004026C5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6028FE7721FD4887004026C5 /* Constants.swift */; };
-		6028FE8121FD4E94004026C5 /* PictureOfTheDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6028FE8021FD4E94004026C5 /* PictureOfTheDay.swift */; };
+		6028FE8121FD4E94004026C5 /* PhotoOfTheDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6028FE8021FD4E94004026C5 /* PhotoOfTheDay.swift */; };
 		E6684084D2533527C9897B27 /* Pods_Stellar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A6AE1CAC960602D64D7BDAD /* Pods_Stellar.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0A6AE1CAC960602D64D7BDAD /* Pods_Stellar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stellar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0E573098B1009A4B0996AC88 /* Pods_Spacetagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Spacetagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E7E13DCA575CBF8939F77FC /* Pods-Stellar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stellar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Stellar/Pods-Stellar.debug.xcconfig"; sourceTree = "<group>"; };
-		3267888C08414D0504EF1859 /* Pods-Spacetagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spacetagram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Spacetagram/Pods-Spacetagram.debug.xcconfig"; sourceTree = "<group>"; };
+		600D69C321FE9552006EBB88 /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+		600D69C521FE96C4006EBB88 /* Arrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arrays.swift; sourceTree = "<group>"; };
 		6028FE6121FD474A004026C5 /* Stellar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stellar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6028FE6421FD474A004026C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6028FE6621FD474A004026C5 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -31,9 +32,8 @@
 		6028FE6E21FD474C004026C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6028FE7021FD474C004026C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6028FE7721FD4887004026C5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		6028FE8021FD4E94004026C5 /* PictureOfTheDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureOfTheDay.swift; sourceTree = "<group>"; };
+		6028FE8021FD4E94004026C5 /* PhotoOfTheDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoOfTheDay.swift; sourceTree = "<group>"; };
 		E725F50E2C2F3C8D0BC90C56 /* Pods-Stellar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stellar.release.xcconfig"; path = "Pods/Target Support Files/Pods-Stellar/Pods-Stellar.release.xcconfig"; sourceTree = "<group>"; };
-		E849468E682B383613F0BDE6 /* Pods-Spacetagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spacetagram.release.xcconfig"; path = "Pods/Target Support Files/Pods-Spacetagram/Pods-Spacetagram.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +41,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A1F5D3B320EAD4329982259 /* Pods_Spacetagram.framework in Frameworks */,
 				E6684084D2533527C9897B27 /* Pods_Stellar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -52,8 +51,6 @@
 		5F52465A3477295BF973E057 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3267888C08414D0504EF1859 /* Pods-Spacetagram.debug.xcconfig */,
-				E849468E682B383613F0BDE6 /* Pods-Spacetagram.release.xcconfig */,
 				1E7E13DCA575CBF8939F77FC /* Pods-Stellar.debug.xcconfig */,
 				E725F50E2C2F3C8D0BC90C56 /* Pods-Stellar.release.xcconfig */,
 			);
@@ -128,7 +125,9 @@
 		6028FE7C21FD4909004026C5 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				6028FE8021FD4E94004026C5 /* PictureOfTheDay.swift */,
+				6028FE8021FD4E94004026C5 /* PhotoOfTheDay.swift */,
+				600D69C321FE9552006EBB88 /* UserDefaults.swift */,
+				600D69C521FE96C4006EBB88 /* Arrays.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -136,7 +135,6 @@
 		E6C3CC2A94560501D0F612E3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0E573098B1009A4B0996AC88 /* Pods_Spacetagram.framework */,
 				0A6AE1CAC960602D64D7BDAD /* Pods_Stellar.framework */,
 			);
 			name = Frameworks;
@@ -285,8 +283,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6028FE6721FD474A004026C5 /* MainViewController.swift in Sources */,
+				600D69C621FE96C4006EBB88 /* Arrays.swift in Sources */,
+				600D69C421FE9552006EBB88 /* UserDefaults.swift in Sources */,
 				6028FE6521FD474A004026C5 /* AppDelegate.swift in Sources */,
-				6028FE8121FD4E94004026C5 /* PictureOfTheDay.swift in Sources */,
+				6028FE8121FD4E94004026C5 /* PhotoOfTheDay.swift in Sources */,
 				6028FE7821FD4887004026C5 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -436,7 +436,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G4Q87YJE27;
-				INFOPLIST_FILE = "$(SRCROOT)/Spacetagram/Resources/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Stellar/Resources/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -456,7 +456,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G4Q87YJE27;
-				INFOPLIST_FILE = "$(SRCROOT)/Spacetagram/Resources/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Stellar/Resources/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
