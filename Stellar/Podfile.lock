@@ -4,7 +4,6 @@ PODS:
     - Fabric (~> 1.8.1)
   - DJSemiModalViewController (0.1.2)
   - Fabric (1.8.1)
-  - Google-Mobile-Ads-SDK (7.35.1)
   - PKHUD (5.2.0)
 
 DEPENDENCIES:
@@ -12,7 +11,6 @@ DEPENDENCIES:
   - Crashlytics
   - DJSemiModalViewController
   - Fabric
-  - Google-Mobile-Ads-SDK
   - PKHUD (~> 5.0)
 
 SPEC REPOS:
@@ -21,7 +19,6 @@ SPEC REPOS:
     - Crashlytics
     - DJSemiModalViewController
     - Fabric
-    - Google-Mobile-Ads-SDK
     - PKHUD
 
 SPEC CHECKSUMS:
@@ -29,9 +26,8 @@ SPEC CHECKSUMS:
   Crashlytics: ca7ab4bc304aa216bdc2e4c1a96389ee77252203
   DJSemiModalViewController: 37874ffd8e040e78aed443435e8d388da783028d
   Fabric: 43ed7bac010f588f63ee23ab1a0276b296db5e17
-  Google-Mobile-Ads-SDK: 151d5e87b4a0ae6d7d07e2cd8d55d1b41ea2e61e
   PKHUD: dd5357ac65f26115c35c4a68e9b328053326c5fe
 
-PODFILE CHECKSUM: e790df2be048126bc31156d3a13e14d71a52987a
+PODFILE CHECKSUM: 9140dff9a69aac016efc684cfe9117d1dd49ac68
 
 COCOAPODS: 1.5.3

@@ -19,15 +19,15 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="space" translatesAutoresizingMaskIntoConstraints="NO" id="CDX-Tw-xBV">
-                                <rect key="frame" x="-20" y="-20" width="454" height="936"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="CDX-Tw-xBV" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" constant="-20" id="JoV-dC-ELD"/>
-                            <constraint firstAttribute="trailing" secondItem="CDX-Tw-xBV" secondAttribute="trailing" constant="-20" id="VUY-jO-qIq"/>
-                            <constraint firstItem="CDX-Tw-xBV" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="-20" id="r5N-yq-IJZ"/>
-                            <constraint firstAttribute="bottom" secondItem="CDX-Tw-xBV" secondAttribute="bottom" constant="-20" id="xZu-XH-eYH"/>
+                            <constraint firstItem="CDX-Tw-xBV" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="JoV-dC-ELD"/>
+                            <constraint firstAttribute="trailing" secondItem="CDX-Tw-xBV" secondAttribute="trailing" id="VUY-jO-qIq"/>
+                            <constraint firstItem="CDX-Tw-xBV" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="r5N-yq-IJZ"/>
+                            <constraint firstAttribute="bottom" secondItem="CDX-Tw-xBV" secondAttribute="bottom" id="xZu-XH-eYH"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -38,6 +38,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="space" width="1242" height="2208"/>
+        <image name="space" width="1876" height="1080"/>
     </resources>
 </document>

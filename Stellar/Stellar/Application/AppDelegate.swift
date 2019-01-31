@@ -17,6 +17,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         Fabric.with([Crashlytics.self])
+        if launchOptions?[UIApplicationLaunchOptionsKey.localNotification] != nil {
+            Answers.logCustomEvent(withName: "app_launch", customAttributes: ["type": "push"])
+        } else {
+            Answers.logCustomEvent(withName: "app_launch", customAttributes: ["type": "regular"])
+        }
+        UserDefaults.standard.setLaunchDate()
+        UserDefaults.standard.removeOldPOTD()
         return true
     }
 }

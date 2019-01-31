@@ -14,12 +14,14 @@ enum Backend {
     static let host = "https://api.nasa.gov"
 }
 
-enum AdMob {
-    static let appId = "ca-app-pub-1103168157406012~7048325556"
-    static let interstitial = "ca-app-pub-1103168157406012/1604427186"
-}
-
-let intervalBetweenPrompts = 5
+let intervalBetweenPrompts = 10
 let imageAnimationDuration: TimeInterval = 1.5
 let requestTimeout: TimeInterval = 5.0
-let motionEffectsRange: CGFloat = 20
+let lastDaysToShow = 10
+
+let appAdIds = [1393799957, // Achi
+    1339374094, // Triangle
+    1315421448, // 2048 AI
+    1355485199, // Sliding Puzzle
+    1035122434, // Falling Numbers X
+    1326484730] // Hex

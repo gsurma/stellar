@@ -16,6 +16,8 @@
 		6028FE6F21FD474C004026C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6028FE6D21FD474C004026C5 /* LaunchScreen.storyboard */; };
 		6028FE7821FD4887004026C5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6028FE7721FD4887004026C5 /* Constants.swift */; };
 		6028FE8121FD4E94004026C5 /* PhotoOfTheDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6028FE8021FD4E94004026C5 /* PhotoOfTheDay.swift */; };
+		60EB36C821FFFE67000C552F /* Dates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EB36C721FFFE67000C552F /* Dates.swift */; };
+		60EB36CB22000596000C552F /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EB36CA22000596000C552F /* PageViewController.swift */; };
 		E6684084D2533527C9897B27 /* Pods_Stellar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A6AE1CAC960602D64D7BDAD /* Pods_Stellar.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +35,8 @@
 		6028FE7021FD474C004026C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6028FE7721FD4887004026C5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		6028FE8021FD4E94004026C5 /* PhotoOfTheDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoOfTheDay.swift; sourceTree = "<group>"; };
+		60EB36C721FFFE67000C552F /* Dates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dates.swift; sourceTree = "<group>"; };
+		60EB36CA22000596000C552F /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		E725F50E2C2F3C8D0BC90C56 /* Pods-Stellar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stellar.release.xcconfig"; path = "Pods/Target Support Files/Pods-Stellar/Pods-Stellar.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -78,6 +82,7 @@
 		6028FE6321FD474A004026C5 /* Stellar */ = {
 			isa = PBXGroup;
 			children = (
+				60EB36C922000589000C552F /* Page */,
 				6028FE7C21FD4909004026C5 /* Utilities */,
 				6028FE7B21FD48C6004026C5 /* Storyboards */,
 				6028FE7A21FD48B8004026C5 /* Main */,
@@ -128,8 +133,17 @@
 				6028FE8021FD4E94004026C5 /* PhotoOfTheDay.swift */,
 				600D69C321FE9552006EBB88 /* UserDefaults.swift */,
 				600D69C521FE96C4006EBB88 /* Arrays.swift */,
+				60EB36C721FFFE67000C552F /* Dates.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		60EB36C922000589000C552F /* Page */ = {
+			isa = PBXGroup;
+			children = (
+				60EB36CA22000596000C552F /* PageViewController.swift */,
+			);
+			path = Page;
 			sourceTree = "<group>";
 		};
 		E6C3CC2A94560501D0F612E3 /* Frameworks */ = {
@@ -286,8 +300,10 @@
 				600D69C621FE96C4006EBB88 /* Arrays.swift in Sources */,
 				600D69C421FE9552006EBB88 /* UserDefaults.swift in Sources */,
 				6028FE6521FD474A004026C5 /* AppDelegate.swift in Sources */,
+				60EB36C821FFFE67000C552F /* Dates.swift in Sources */,
 				6028FE8121FD4E94004026C5 /* PhotoOfTheDay.swift in Sources */,
 				6028FE7821FD4887004026C5 /* Constants.swift in Sources */,
+				60EB36CB22000596000C552F /* PageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,39 +8,39 @@
 
 /* Begin PBXBuildFile section */
 		041A319F313FA03C9AECBD23F4A41676 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		0AD7956E61AD5EF273B31E3878B480F9 /* PKHUDSquareBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B92801D975942C24C35425977EFDCFA /* PKHUDSquareBaseView.swift */; };
-		0C2767249291A4A1505A28CFC9498026 /* PKHUDRotatingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFA0A98449B10EE12C9BF39F90B7FEB /* PKHUDRotatingImageView.swift */; };
-		0F4DD3C94E4DF364C580CCA89D9C2415 /* PKHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC63F3152B6667516D0A90D2C472C348 /* PKHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		18633956C22E9035A8773C735828DD8B /* Comet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1612B03F0FAACF3B174C03A8E1AB5AAE /* Comet.swift */; };
-		3BC5BD0252DA8DA05906C5D590C834C9 /* PKHUDAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36967C95E719BAC9BE79C7774D39A8B /* PKHUDAnimation.swift */; };
+		0AD7956E61AD5EF273B31E3878B480F9 /* PKHUDSquareBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0403B321DF16757C5EC0761F41080E8 /* PKHUDSquareBaseView.swift */; };
+		0C2767249291A4A1505A28CFC9498026 /* PKHUDRotatingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2995F3098434FA4CA4A2C6BCFD9A844C /* PKHUDRotatingImageView.swift */; };
+		0F4DD3C94E4DF364C580CCA89D9C2415 /* PKHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D310C64A32A1B43B2CD3B767711E8736 /* PKHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18633956C22E9035A8773C735828DD8B /* Comet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735B1A4BFBF1D75B806827F29DBB27F0 /* Comet.swift */; };
+		3BC5BD0252DA8DA05906C5D590C834C9 /* PKHUDAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033E58FD53EF7FB206D02FCA7858FDA2 /* PKHUDAnimation.swift */; };
 		447F7B400A5409CC8D71328466273925 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		4FC4DA714B42350BC08EA10BD54A38AE /* PKHUDErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB44F0EA44C7AA7C8B7BEC613B13C4C2 /* PKHUDErrorView.swift */; };
-		584DA6928D93CB8AA7DDDEB67FF8FE5C /* FrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3302FDB403BF7D7579352B9A0B079E /* FrameView.swift */; };
-		6384CC7276BF926A6E48E96AA10EFC1A /* PKHUDSuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD52A7FB9DEDB183FF3700968B4A31D /* PKHUDSuccessView.swift */; };
-		64A9737CA02F71D3146B122C8981EA0E /* DJSemiModalViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D2182B61F44097CB9BF2A3949A4BB25C /* DJSemiModalViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		695A4D580E443E5DE0356968CCC393CD /* PKHUDSystemActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FBE1604408087AC8797403F7FDF251 /* PKHUDSystemActivityIndicatorView.swift */; };
-		7187B4DDEF3EF96F0E6983A9A0AEE61E /* PKHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D44D728E9FDD7E5CD895DBB32D65D4 /* PKHUD.swift */; };
-		78B029B6D7F554212B95F64F80CDEC33 /* PKHUDAnimating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F63F2BD8ABDC3B708C5665A97BB168 /* PKHUDAnimating.swift */; };
-		7E49EB565118F1F3A231528110A1FF5F /* PKHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 9080AD15800726AA5D2BDCA5C3EEFA18 /* PKHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		84D8987B06F5FE1B1D7FB04D36536631 /* DJSemiModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF59227A62D4474FB074CC02CDA97A7D /* DJSemiModalViewController.swift */; };
-		8C4D24A5AC87E30A33214EA4E7FA359B /* PKHUDAssets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8415464F6C226D8335760D396A408E58 /* PKHUDAssets.swift */; };
-		8E945BA2AB75EB4A3E0B0E66CAB5D17C /* WindowRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E9D2B676BD98A8524F97B2444BAD86 /* WindowRootViewController.swift */; };
-		8EE6A30FA2FBDC0CB6BFF6F702C0E8C7 /* DJSemiModalViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F3F13A81CE19387A54310E5477EF08 /* DJSemiModalViewController-dummy.m */; };
+		4FC4DA714B42350BC08EA10BD54A38AE /* PKHUDErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3A534F9BA96448053A4DB9B3CE74F7 /* PKHUDErrorView.swift */; };
+		584DA6928D93CB8AA7DDDEB67FF8FE5C /* FrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD10EFD63C301CBED9B9BDA52203B0B /* FrameView.swift */; };
+		6384CC7276BF926A6E48E96AA10EFC1A /* PKHUDSuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240FE19AA6516B3983AAE48FCE437E8E /* PKHUDSuccessView.swift */; };
+		64A9737CA02F71D3146B122C8981EA0E /* DJSemiModalViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8775A34C0CF32C703AE8284E9D301899 /* DJSemiModalViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		695A4D580E443E5DE0356968CCC393CD /* PKHUDSystemActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2178A8F4116A0E663673C9FDA748635 /* PKHUDSystemActivityIndicatorView.swift */; };
+		7187B4DDEF3EF96F0E6983A9A0AEE61E /* PKHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ECD88CCAD76C458EBD75E03102A08F /* PKHUD.swift */; };
+		78B029B6D7F554212B95F64F80CDEC33 /* PKHUDAnimating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B848B433906EFF722414C1124C7658 /* PKHUDAnimating.swift */; };
+		7E49EB565118F1F3A231528110A1FF5F /* PKHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CAB4EF927644EBB61230A4BAB1966DF /* PKHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84D8987B06F5FE1B1D7FB04D36536631 /* DJSemiModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2148B71C37AB35834B6F7D04E0DD0AB /* DJSemiModalViewController.swift */; };
+		8C4D24A5AC87E30A33214EA4E7FA359B /* PKHUDAssets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C3B3C28B5B4FF9DF9D298370F7BA7D /* PKHUDAssets.swift */; };
+		8E945BA2AB75EB4A3E0B0E66CAB5D17C /* WindowRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64335116147244F1784F7E4DC8BFCBF3 /* WindowRootViewController.swift */; };
+		8EE6A30FA2FBDC0CB6BFF6F702C0E8C7 /* DJSemiModalViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9837F87400C09E46481A26BD34102FA /* DJSemiModalViewController-dummy.m */; };
 		92F4B7F2F68C8BDF28B1B027B4D2FCD5 /* Pods-Stellar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 25D63CC6C5876EE4244FD027C8BC6A90 /* Pods-Stellar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9967627CA12A571655D6F64ECD4688B3 /* PKHUDResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DE6AF875C3F3C5567698328AFE068A57 /* PKHUDResources.bundle */; };
-		99D620F94B0CD9C041635D559BD81B4A /* HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D80F9010F3461DCE9C3B0CD95A97DBD /* HUD.swift */; };
-		9A1224693C7C3574E4A517844399E668 /* PKHUDWideBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81536B48EEDF8C9D5EEA3A9355A17A14 /* PKHUDWideBaseView.swift */; };
-		C16DB56D2D110826C502A4DFF6A6F0D3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25925E56E1D7F17E483E084DBAF0960A /* Images.xcassets */; };
+		99D620F94B0CD9C041635D559BD81B4A /* HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E7CBB9612F7DF43BCCAD5E5D36872B /* HUD.swift */; };
+		9A1224693C7C3574E4A517844399E668 /* PKHUDWideBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319DDBA78868F53F5BA76D761376CD83 /* PKHUDWideBaseView.swift */; };
+		C16DB56D2D110826C502A4DFF6A6F0D3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D4289118F724B3FF7493A38496A42C9 /* Images.xcassets */; };
 		C39113142D55BF19544D120DFD699A74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		CBF2A7EC68B21B7EE07CA6FA4CB20AAE /* Comets-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE6A9894CC211581107FD60B3318E366 /* Comets-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D623905E75C43F8D2297D4F7DD0829C6 /* Comets-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 24687E3BBC0154BC24DF6186A80D4778 /* Comets-dummy.m */; };
+		CBF2A7EC68B21B7EE07CA6FA4CB20AAE /* Comets-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CEC64F88AA94AC276D8E35C8B96A8C17 /* Comets-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D623905E75C43F8D2297D4F7DD0829C6 /* Comets-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC277A85E8F11BA4A1F27CC3EB0ED79 /* Comets-dummy.m */; };
 		E34B97D5CDBDA57E133ED033DABFF060 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		EC093FB80F3090C6B466C94280790C23 /* Window.swift in Sources */ = {isa = PBXBuildFile; fileRef = C498378843BFC99C3E7FE79FC02B18D6 /* Window.swift */; };
-		ECB37571500A625742833F6EDD1CE4E1 /* PKHUDTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6399EFBD54E934E8E5442DB97475A861 /* PKHUDTextView.swift */; };
-		F184A6BD95060E28F3CD604B3216F88D /* UIImage+Rotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01214A278EFDDBB219E51ECBA8E49213 /* UIImage+Rotate.swift */; };
+		EC093FB80F3090C6B466C94280790C23 /* Window.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012E3C2377A07C927B8A6B37F0E813EC /* Window.swift */; };
+		ECB37571500A625742833F6EDD1CE4E1 /* PKHUDTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D3B5FECAA2F60E8B32ECA3457E36C5 /* PKHUDTextView.swift */; };
+		F184A6BD95060E28F3CD604B3216F88D /* UIImage+Rotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A27EC4E2B513A727EB971B761958114 /* UIImage+Rotate.swift */; };
 		F1F2EA25FEBD8F9DAA0C34F36BC0B3C9 /* Pods-Stellar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67CD4C565C68FE13171BA36E87007A84 /* Pods-Stellar-dummy.m */; };
-		F51584A61D18FFFF50A115D6351EB91C /* PKHUDProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448BA26568CC91976A5C2496E1D42F3C /* PKHUDProgressView.swift */; };
-		F9718DA2D558B553E75E2031B94D55D8 /* PKHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DDFFCAE92F595836EF26E1493401486 /* PKHUD-dummy.m */; };
+		F51584A61D18FFFF50A115D6351EB91C /* PKHUDProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B0653C888FFCDD7864A304BBED9E4C /* PKHUDProgressView.swift */; };
+		F9718DA2D558B553E75E2031B94D55D8 /* PKHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D021EB658A434A343A634AE5752AF98 /* PKHUD-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,76 +75,74 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01214A278EFDDBB219E51ECBA8E49213 /* UIImage+Rotate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+Rotate.swift"; path = "Comets/Sources/UIImage+Rotate.swift"; sourceTree = "<group>"; };
+		012E3C2377A07C927B8A6B37F0E813EC /* Window.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Window.swift; path = PKHUD/Window.swift; sourceTree = "<group>"; };
+		033E58FD53EF7FB206D02FCA7858FDA2 /* PKHUDAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDAnimation.swift; path = PKHUD/PKHUDAnimation.swift; sourceTree = "<group>"; };
+		06FD454705D99804C3ECE55575A07588 /* CLSAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSAttributes.h; path = iOS/Crashlytics.framework/Headers/CLSAttributes.h; sourceTree = "<group>"; };
 		0917D8562143C48940EF7BD4A1B6FF34 /* Pods-Stellar-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Stellar-resources.sh"; sourceTree = "<group>"; };
-		0B7AC674E4B9F217FCF84EDC983DA813 /* FABAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FABAttributes.h; path = iOS/Fabric.framework/Headers/FABAttributes.h; sourceTree = "<group>"; };
-		1612B03F0FAACF3B174C03A8E1AB5AAE /* Comet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Comet.swift; path = Comets/Sources/Comet.swift; sourceTree = "<group>"; };
-		16F63F2BD8ABDC3B708C5665A97BB168 /* PKHUDAnimating.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDAnimating.swift; path = PKHUD/PKHUDAnimating.swift; sourceTree = "<group>"; };
-		1D80F9010F3461DCE9C3B0CD95A97DBD /* HUD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HUD.swift; path = PKHUD/HUD.swift; sourceTree = "<group>"; };
-		24687E3BBC0154BC24DF6186A80D4778 /* Comets-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Comets-dummy.m"; sourceTree = "<group>"; };
-		25925E56E1D7F17E483E084DBAF0960A /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = PKHUD/Images.xcassets; sourceTree = "<group>"; };
+		16F1659407E2D8348DBAE3B46025CD96 /* ANSCompatibility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANSCompatibility.h; path = iOS/Crashlytics.framework/Headers/ANSCompatibility.h; sourceTree = "<group>"; };
+		194A08ECDECF804A554D8326AAF4697F /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Crashlytics.framework; path = iOS/Crashlytics.framework; sourceTree = "<group>"; };
+		1D4289118F724B3FF7493A38496A42C9 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = PKHUD/Images.xcassets; sourceTree = "<group>"; };
+		240FE19AA6516B3983AAE48FCE437E8E /* PKHUDSuccessView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDSuccessView.swift; path = PKHUD/PKHUDSuccessView.swift; sourceTree = "<group>"; };
 		25D63CC6C5876EE4244FD027C8BC6A90 /* Pods-Stellar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Stellar-umbrella.h"; sourceTree = "<group>"; };
+		26C3B3C28B5B4FF9DF9D298370F7BA7D /* PKHUDAssets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDAssets.swift; path = PKHUD/PKHUDAssets.swift; sourceTree = "<group>"; };
+		2930CE23E5C734D825E6A64338CF0AE1 /* DJSemiModalViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DJSemiModalViewController-prefix.pch"; sourceTree = "<group>"; };
 		294537EE325C700EE3CF7A3F14074A09 /* Pods-Stellar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Stellar.release.xcconfig"; sourceTree = "<group>"; };
-		29A17488059A989C3F6E6EE7F50E6B0D /* CLSStackFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSStackFrame.h; path = iOS/Crashlytics.framework/Headers/CLSStackFrame.h; sourceTree = "<group>"; };
-		2D0FE84A7DF784778C1E7B50355481AA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2995F3098434FA4CA4A2C6BCFD9A844C /* PKHUDRotatingImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDRotatingImageView.swift; path = PKHUD/PKHUDRotatingImageView.swift; sourceTree = "<group>"; };
+		2D6528DF7414330848EC8F2785FE27ED /* PKHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PKHUD.xcconfig; sourceTree = "<group>"; };
 		2D6CDAA53EB3465F19DA3F86554D1EBA /* Pods-Stellar-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Stellar-frameworks.sh"; sourceTree = "<group>"; };
+		319DDBA78868F53F5BA76D761376CD83 /* PKHUDWideBaseView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDWideBaseView.swift; path = PKHUD/PKHUDWideBaseView.swift; sourceTree = "<group>"; };
 		31F17E249691CECDDAAAB999634B7F4A /* Pods-Stellar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Stellar.debug.xcconfig"; sourceTree = "<group>"; };
+		3A3A534F9BA96448053A4DB9B3CE74F7 /* PKHUDErrorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDErrorView.swift; path = PKHUD/PKHUDErrorView.swift; sourceTree = "<group>"; };
 		3C1376F0590FF9CD3FC60067BAD5C15B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4099ABF6F5165F545A79CAD03D54E90C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4324F061DAA9EC12D6E19B48A119025D /* Pods-Stellar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Stellar.modulemap"; sourceTree = "<group>"; };
-		43F3F13A81CE19387A54310E5477EF08 /* DJSemiModalViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DJSemiModalViewController-dummy.m"; sourceTree = "<group>"; };
-		448BA26568CC91976A5C2496E1D42F3C /* PKHUDProgressView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDProgressView.swift; path = PKHUD/PKHUDProgressView.swift; sourceTree = "<group>"; };
+		47D3B5FECAA2F60E8B32ECA3457E36C5 /* PKHUDTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDTextView.swift; path = PKHUD/PKHUDTextView.swift; sourceTree = "<group>"; };
+		48520FEB458BB3BEE2F640F19E67F1A8 /* CLSLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSLogging.h; path = iOS/Crashlytics.framework/Headers/CLSLogging.h; sourceTree = "<group>"; };
 		4A3FF65ECC260B026D4CA5AA62F217B6 /* Pods-Stellar-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Stellar-acknowledgements.markdown"; sourceTree = "<group>"; };
-		53854D63373CFDD16A73E53AE419A9FC /* libGoogleMobileAds.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGoogleMobileAds.a; path = Libraries/libGoogleMobileAds.a; sourceTree = "<group>"; };
+		4B23C934624D4378156CA0D3AF57B168 /* CLSReport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSReport.h; path = iOS/Crashlytics.framework/Headers/CLSReport.h; sourceTree = "<group>"; };
+		4BA1B174A5A6E5E73F89D435452483DD /* Crashlytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Crashlytics.h; path = iOS/Crashlytics.framework/Headers/Crashlytics.h; sourceTree = "<group>"; };
+		55B0653C888FFCDD7864A304BBED9E4C /* PKHUDProgressView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDProgressView.swift; path = PKHUD/PKHUDProgressView.swift; sourceTree = "<group>"; };
 		56AA99EEA5515E1B34838F264D59AA52 /* PKHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PKHUD.framework; path = PKHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5838291076952CD0109FC07BA27FC680 /* DJSemiModalViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DJSemiModalViewController.modulemap; sourceTree = "<group>"; };
-		5920218C8FD8B8B549557B9D6255867E /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Fabric.framework; path = iOS/Fabric.framework; sourceTree = "<group>"; };
-		5B92801D975942C24C35425977EFDCFA /* PKHUDSquareBaseView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDSquareBaseView.swift; path = PKHUD/PKHUDSquareBaseView.swift; sourceTree = "<group>"; };
-		5BE90781DE1D14BD26A1B61679B70924 /* ANSCompatibility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANSCompatibility.h; path = iOS/Crashlytics.framework/Headers/ANSCompatibility.h; sourceTree = "<group>"; };
-		60DFFEEBA9BDA92FF8ED27DEABD1C1A4 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = Frameworks/frameworks/GoogleMobileAds.framework; sourceTree = "<group>"; };
+		5A27EC4E2B513A727EB971B761958114 /* UIImage+Rotate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+Rotate.swift"; path = "Comets/Sources/UIImage+Rotate.swift"; sourceTree = "<group>"; };
 		62AC8952A7DC63352B3010B1E15D6C8B /* Comets.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Comets.framework; path = Comets.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6399EFBD54E934E8E5442DB97475A861 /* PKHUDTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDTextView.swift; path = PKHUD/PKHUDTextView.swift; sourceTree = "<group>"; };
-		66ABE0E044A5A68372F56F05525CC39D /* DJSemiModalViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DJSemiModalViewController.xcconfig; sourceTree = "<group>"; };
-		66BA86A06224F4D5FE156DFAECC334A1 /* Comets.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Comets.xcconfig; sourceTree = "<group>"; };
+		64335116147244F1784F7E4DC8BFCBF3 /* WindowRootViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WindowRootViewController.swift; path = PKHUD/WindowRootViewController.swift; sourceTree = "<group>"; };
+		67B848B433906EFF722414C1124C7658 /* PKHUDAnimating.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDAnimating.swift; path = PKHUD/PKHUDAnimating.swift; sourceTree = "<group>"; };
 		67CD4C565C68FE13171BA36E87007A84 /* Pods-Stellar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Stellar-dummy.m"; sourceTree = "<group>"; };
 		6A8BF269B81D64E228FE15314B835983 /* Pods_Stellar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Stellar.framework; path = "Pods-Stellar.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6DD6B51063C0C22726CBCCB506172229 /* CLSAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSAttributes.h; path = iOS/Crashlytics.framework/Headers/CLSAttributes.h; sourceTree = "<group>"; };
-		6DDFFCAE92F595836EF26E1493401486 /* PKHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PKHUD-dummy.m"; sourceTree = "<group>"; };
-		756DC2D5C3841B6B7F2B754D0BDDABBF /* Fabric.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Fabric.h; path = iOS/Fabric.framework/Headers/Fabric.h; sourceTree = "<group>"; };
-		765B5D069B21DEF04071C52F12082712 /* Crashlytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Crashlytics.h; path = iOS/Crashlytics.framework/Headers/Crashlytics.h; sourceTree = "<group>"; };
-		81536B48EEDF8C9D5EEA3A9355A17A14 /* PKHUDWideBaseView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDWideBaseView.swift; path = PKHUD/PKHUDWideBaseView.swift; sourceTree = "<group>"; };
-		82E9D2B676BD98A8524F97B2444BAD86 /* WindowRootViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WindowRootViewController.swift; path = PKHUD/WindowRootViewController.swift; sourceTree = "<group>"; };
-		8415464F6C226D8335760D396A408E58 /* PKHUDAssets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDAssets.swift; path = PKHUD/PKHUDAssets.swift; sourceTree = "<group>"; };
-		9080AD15800726AA5D2BDCA5C3EEFA18 /* PKHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PKHUD.h; path = PKHUD/PKHUD.h; sourceTree = "<group>"; };
+		6C324F43940CF631E9C1C4D82653FEF5 /* ResourceBundle-PKHUDResources-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-PKHUDResources-Info.plist"; sourceTree = "<group>"; };
+		7045B2B728FD7906D0A11DC9E7A55407 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Fabric.framework; path = iOS/Fabric.framework; sourceTree = "<group>"; };
+		735B1A4BFBF1D75B806827F29DBB27F0 /* Comet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Comet.swift; path = Comets/Sources/Comet.swift; sourceTree = "<group>"; };
+		78E7CBB9612F7DF43BCCAD5E5D36872B /* HUD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HUD.swift; path = PKHUD/HUD.swift; sourceTree = "<group>"; };
+		7CAB4EF927644EBB61230A4BAB1966DF /* PKHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PKHUD.h; path = PKHUD/PKHUD.h; sourceTree = "<group>"; };
+		7D021EB658A434A343A634AE5752AF98 /* PKHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PKHUD-dummy.m"; sourceTree = "<group>"; };
+		7D4FABA37C84306648C10404FB97692C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DD10EFD63C301CBED9B9BDA52203B0B /* FrameView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FrameView.swift; path = PKHUD/FrameView.swift; sourceTree = "<group>"; };
+		7E8FDA063D011C9789D9AB70C0F5CA0E /* Answers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Answers.h; path = iOS/Crashlytics.framework/Headers/Answers.h; sourceTree = "<group>"; };
+		84AD2ED3694326FC597AFA986AF081BF /* FABAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FABAttributes.h; path = iOS/Fabric.framework/Headers/FABAttributes.h; sourceTree = "<group>"; };
+		8709252AC24D306476BAAC834EC36120 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8775A34C0CF32C703AE8284E9D301899 /* DJSemiModalViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DJSemiModalViewController-umbrella.h"; sourceTree = "<group>"; };
+		902017795A6B404BC55711E9117DB4F2 /* CLSStackFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSStackFrame.h; path = iOS/Crashlytics.framework/Headers/CLSStackFrame.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F3302FDB403BF7D7579352B9A0B079E /* FrameView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FrameView.swift; path = PKHUD/FrameView.swift; sourceTree = "<group>"; };
-		A12F09E0F2D1A08B5890577259DEC958 /* DJSemiModalViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DJSemiModalViewController-prefix.pch"; sourceTree = "<group>"; };
-		AE6A9894CC211581107FD60B3318E366 /* Comets-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Comets-umbrella.h"; sourceTree = "<group>"; };
-		B1F7002ACF3A7E178F79E9759E532A5F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B2FE17C035C021C8DC453BEC33610D1C /* PKHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PKHUD-prefix.pch"; sourceTree = "<group>"; };
-		B829E3746020886E00AFDF9358CC0F1E /* CLSReport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSReport.h; path = iOS/Crashlytics.framework/Headers/CLSReport.h; sourceTree = "<group>"; };
-		BF59227A62D4474FB074CC02CDA97A7D /* DJSemiModalViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DJSemiModalViewController.swift; path = DJSemiModalViewController/Classes/DJSemiModalViewController.swift; sourceTree = "<group>"; };
-		C36967C95E719BAC9BE79C7774D39A8B /* PKHUDAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDAnimation.swift; path = PKHUD/PKHUDAnimation.swift; sourceTree = "<group>"; };
-		C498378843BFC99C3E7FE79FC02B18D6 /* Window.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Window.swift; path = PKHUD/Window.swift; sourceTree = "<group>"; };
-		CB44F0EA44C7AA7C8B7BEC613B13C4C2 /* PKHUDErrorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDErrorView.swift; path = PKHUD/PKHUDErrorView.swift; sourceTree = "<group>"; };
-		CD4FA4592BAD56B1AA01A041CC0C9594 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Crashlytics.framework; path = iOS/Crashlytics.framework; sourceTree = "<group>"; };
-		CDA735AA571D652D89430A778A9603BE /* PKHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PKHUD.modulemap; sourceTree = "<group>"; };
-		CFFA0A98449B10EE12C9BF39F90B7FEB /* PKHUDRotatingImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDRotatingImageView.swift; path = PKHUD/PKHUDRotatingImageView.swift; sourceTree = "<group>"; };
-		D2182B61F44097CB9BF2A3949A4BB25C /* DJSemiModalViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DJSemiModalViewController-umbrella.h"; sourceTree = "<group>"; };
+		96ECD88CCAD76C458EBD75E03102A08F /* PKHUD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUD.swift; path = PKHUD/PKHUD.swift; sourceTree = "<group>"; };
+		AD9B941BA2623D07E0B493EF070867D1 /* Comets-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Comets-prefix.pch"; sourceTree = "<group>"; };
+		B585ED6322FA128375165FD4E34B2139 /* Comets.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Comets.xcconfig; sourceTree = "<group>"; };
+		BDC277A85E8F11BA4A1F27CC3EB0ED79 /* Comets-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Comets-dummy.m"; sourceTree = "<group>"; };
+		BFB1D74B22D8692A8F25467037329F7D /* DJSemiModalViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DJSemiModalViewController.modulemap; sourceTree = "<group>"; };
+		C2148B71C37AB35834B6F7D04E0DD0AB /* DJSemiModalViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DJSemiModalViewController.swift; path = DJSemiModalViewController/Classes/DJSemiModalViewController.swift; sourceTree = "<group>"; };
+		C2178A8F4116A0E663673C9FDA748635 /* PKHUDSystemActivityIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDSystemActivityIndicatorView.swift; path = PKHUD/PKHUDSystemActivityIndicatorView.swift; sourceTree = "<group>"; };
+		C28BB9835BE03CBA6E525DA056CF0ED6 /* PKHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PKHUD.modulemap; sourceTree = "<group>"; };
+		C6F08280DA4077F6CA46AB1777E950B9 /* PKHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PKHUD-prefix.pch"; sourceTree = "<group>"; };
+		CEC64F88AA94AC276D8E35C8B96A8C17 /* Comets-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Comets-umbrella.h"; sourceTree = "<group>"; };
+		D0403B321DF16757C5EC0761F41080E8 /* PKHUDSquareBaseView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDSquareBaseView.swift; path = PKHUD/PKHUDSquareBaseView.swift; sourceTree = "<group>"; };
+		D310C64A32A1B43B2CD3B767711E8736 /* PKHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PKHUD-umbrella.h"; sourceTree = "<group>"; };
+		D57374F5417ED9B222DE24FA6145B56B /* DJSemiModalViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DJSemiModalViewController.xcconfig; sourceTree = "<group>"; };
 		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D7FFF344FC1043618662C726CB8DAC18 /* Pods-Stellar-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Stellar-acknowledgements.plist"; sourceTree = "<group>"; };
-		DB9853A5FB051C0D13D9CAC6583E39A6 /* PKHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PKHUD.xcconfig; sourceTree = "<group>"; };
+		D95901D52B9229BBB65DD0894D4B8881 /* Fabric.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Fabric.h; path = iOS/Fabric.framework/Headers/Fabric.h; sourceTree = "<group>"; };
+		DBF9964CD5D7B0F587F322BD950E4A4D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE6AF875C3F3C5567698328AFE068A57 /* PKHUDResources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = PKHUDResources.bundle; path = "PKHUD-PKHUDResources.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E5699A25C5B17C417F31233109A6C6A1 /* CLSLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSLogging.h; path = iOS/Crashlytics.framework/Headers/CLSLogging.h; sourceTree = "<group>"; };
-		E8D44D728E9FDD7E5CD895DBB32D65D4 /* PKHUD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUD.swift; path = PKHUD/PKHUD.swift; sourceTree = "<group>"; };
-		EAE979931A437DA5A9F188961D96BC72 /* Answers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Answers.h; path = iOS/Crashlytics.framework/Headers/Answers.h; sourceTree = "<group>"; };
-		F059744F230C80851EA726E578600BD8 /* Comets-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Comets-prefix.pch"; sourceTree = "<group>"; };
-		F0F160BC3490564E78F60CBFF040EDEB /* ResourceBundle-PKHUDResources-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-PKHUDResources-Info.plist"; sourceTree = "<group>"; };
-		F4FBE1604408087AC8797403F7FDF251 /* PKHUDSystemActivityIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDSystemActivityIndicatorView.swift; path = PKHUD/PKHUDSystemActivityIndicatorView.swift; sourceTree = "<group>"; };
+		E618D6E60C94B9FA2FE900BF2130F02E /* Comets.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Comets.modulemap; sourceTree = "<group>"; };
 		F5672EFD66AD9FAE51A6D1EBAB80A140 /* DJSemiModalViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DJSemiModalViewController.framework; path = DJSemiModalViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F7123165BC299894A2A30D18EEEA6F0B /* Comets.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Comets.modulemap; sourceTree = "<group>"; };
-		FC63F3152B6667516D0A90D2C472C348 /* PKHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PKHUD-umbrella.h"; sourceTree = "<group>"; };
-		FDD52A7FB9DEDB183FF3700968B4A31D /* PKHUDSuccessView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDSuccessView.swift; path = PKHUD/PKHUDSuccessView.swift; sourceTree = "<group>"; };
+		F9837F87400C09E46481A26BD34102FA /* DJSemiModalViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DJSemiModalViewController-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,34 +188,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0DB64444FAFAAC2A5892D9ADDD6329FE /* Resources */ = {
+		198FA5BF09B8808BF56ADB0735E44C0F /* DJSemiModalViewController */ = {
 			isa = PBXGroup;
 			children = (
-				25925E56E1D7F17E483E084DBAF0960A /* Images.xcassets */,
+				C2148B71C37AB35834B6F7D04E0DD0AB /* DJSemiModalViewController.swift */,
+				E8015FAE7FE8C1E44E51475F0DF92CD7 /* Support Files */,
 			);
-			name = Resources;
+			name = DJSemiModalViewController;
+			path = DJSemiModalViewController;
 			sourceTree = "<group>";
 		};
-		10B6A01C7E51313DB808D9F94BDDC51B /* Frameworks */ = {
+		1EC19F535EED904162A94ABAE3222DF3 /* PKHUD */ = {
 			isa = PBXGroup;
 			children = (
-				5920218C8FD8B8B549557B9D6255867E /* Fabric.framework */,
+				7DD10EFD63C301CBED9B9BDA52203B0B /* FrameView.swift */,
+				78E7CBB9612F7DF43BCCAD5E5D36872B /* HUD.swift */,
+				7CAB4EF927644EBB61230A4BAB1966DF /* PKHUD.h */,
+				96ECD88CCAD76C458EBD75E03102A08F /* PKHUD.swift */,
+				67B848B433906EFF722414C1124C7658 /* PKHUDAnimating.swift */,
+				033E58FD53EF7FB206D02FCA7858FDA2 /* PKHUDAnimation.swift */,
+				26C3B3C28B5B4FF9DF9D298370F7BA7D /* PKHUDAssets.swift */,
+				3A3A534F9BA96448053A4DB9B3CE74F7 /* PKHUDErrorView.swift */,
+				55B0653C888FFCDD7864A304BBED9E4C /* PKHUDProgressView.swift */,
+				2995F3098434FA4CA4A2C6BCFD9A844C /* PKHUDRotatingImageView.swift */,
+				D0403B321DF16757C5EC0761F41080E8 /* PKHUDSquareBaseView.swift */,
+				240FE19AA6516B3983AAE48FCE437E8E /* PKHUDSuccessView.swift */,
+				C2178A8F4116A0E663673C9FDA748635 /* PKHUDSystemActivityIndicatorView.swift */,
+				47D3B5FECAA2F60E8B32ECA3457E36C5 /* PKHUDTextView.swift */,
+				319DDBA78868F53F5BA76D761376CD83 /* PKHUDWideBaseView.swift */,
+				012E3C2377A07C927B8A6B37F0E813EC /* Window.swift */,
+				64335116147244F1784F7E4DC8BFCBF3 /* WindowRootViewController.swift */,
+				5594F67031E2BB2C807ED2F9845A5619 /* Resources */,
+				FC47DCA61D805C80FDCE5079E231E650 /* Support Files */,
 			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		1DC096850ED4DD16C8390A298B921608 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F7123165BC299894A2A30D18EEEA6F0B /* Comets.modulemap */,
-				66BA86A06224F4D5FE156DFAECC334A1 /* Comets.xcconfig */,
-				24687E3BBC0154BC24DF6186A80D4778 /* Comets-dummy.m */,
-				F059744F230C80851EA726E578600BD8 /* Comets-prefix.pch */,
-				AE6A9894CC211581107FD60B3318E366 /* Comets-umbrella.h */,
-				4099ABF6F5165F545A79CAD03D54E90C /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Comets";
+			name = PKHUD;
+			path = PKHUD;
 			sourceTree = "<group>";
 		};
 		1F6B45D2ACEC7A4ECD4A13026A9991A3 /* Pods-Stellar */ = {
@@ -238,37 +243,23 @@
 			path = "Target Support Files/Pods-Stellar";
 			sourceTree = "<group>";
 		};
-		2DA8FA2A084A1159CABE5DD51F48570C /* Google-Mobile-Ads-SDK */ = {
+		2309960C6F779898CACA3FFF9000E921 /* Comets */ = {
 			isa = PBXGroup;
 			children = (
-				CABC1B49238D40C873546E28D2FA93FC /* Frameworks */,
+				735B1A4BFBF1D75B806827F29DBB27F0 /* Comet.swift */,
+				5A27EC4E2B513A727EB971B761958114 /* UIImage+Rotate.swift */,
+				C33396920FE142AAEBA118130AF9B35C /* Support Files */,
 			);
-			name = "Google-Mobile-Ads-SDK";
-			path = "Google-Mobile-Ads-SDK";
+			name = Comets;
+			path = Comets;
 			sourceTree = "<group>";
 		};
-		2E5E404D55667060D425CDE190E608EF /* DJSemiModalViewController */ = {
+		31450D2D84B40FF9CA5AF273D029D97B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BF59227A62D4474FB074CC02CDA97A7D /* DJSemiModalViewController.swift */,
-				3C1FE95CA2889D0F9E4548FB92B8CDEB /* Support Files */,
+				194A08ECDECF804A554D8326AAF4697F /* Crashlytics.framework */,
 			);
-			name = DJSemiModalViewController;
-			path = DJSemiModalViewController;
-			sourceTree = "<group>";
-		};
-		3C1FE95CA2889D0F9E4548FB92B8CDEB /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				5838291076952CD0109FC07BA27FC680 /* DJSemiModalViewController.modulemap */,
-				66ABE0E044A5A68372F56F05525CC39D /* DJSemiModalViewController.xcconfig */,
-				43F3F13A81CE19387A54310E5477EF08 /* DJSemiModalViewController-dummy.m */,
-				A12F09E0F2D1A08B5890577259DEC958 /* DJSemiModalViewController-prefix.pch */,
-				D2182B61F44097CB9BF2A3949A4BB25C /* DJSemiModalViewController-umbrella.h */,
-				2D0FE84A7DF784778C1E7B50355481AA /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/DJSemiModalViewController";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		44D5347904CF754D6785B84253F2574A /* iOS */ = {
@@ -279,12 +270,12 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		49EFE17661942BBFA7D57B03C354C0D2 /* Frameworks */ = {
+		5594F67031E2BB2C807ED2F9845A5619 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				CD4FA4592BAD56B1AA01A041CC0C9594 /* Crashlytics.framework */,
+				1D4289118F724B3FF7493A38496A42C9 /* Images.xcassets */,
 			);
-			name = Frameworks;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		5C3623D7D69214AAA2FA2C244FD66483 /* Targets Support Files */ = {
@@ -295,15 +286,12 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		61F9E99DEE92AEC32A2758CB51A31BBB /* Comets */ = {
+		76E7B5EC5E10C6E331B6F3D35512FFF5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1612B03F0FAACF3B174C03A8E1AB5AAE /* Comet.swift */,
-				01214A278EFDDBB219E51ECBA8E49213 /* UIImage+Rotate.swift */,
-				1DC096850ED4DD16C8390A298B921608 /* Support Files */,
+				7045B2B728FD7906D0A11DC9E7A55407 /* Fabric.framework */,
 			);
-			name = Comets;
-			path = Comets;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -311,52 +299,26 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				F2328C4E41E582712F015CA68BBFDE5A /* Pods */,
+				C91790B87F32DCED06D361DDE6EAE316 /* Pods */,
 				DD293826C69B6C0BC7086D7F8CCC2D99 /* Products */,
 				5C3623D7D69214AAA2FA2C244FD66483 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		A3A7D6EE8057EB12D785C00DD1D0AC8E /* PKHUD */ = {
+		90338F35B125A8866F4E0C8E19009F7E /* Crashlytics */ = {
 			isa = PBXGroup;
 			children = (
-				9F3302FDB403BF7D7579352B9A0B079E /* FrameView.swift */,
-				1D80F9010F3461DCE9C3B0CD95A97DBD /* HUD.swift */,
-				9080AD15800726AA5D2BDCA5C3EEFA18 /* PKHUD.h */,
-				E8D44D728E9FDD7E5CD895DBB32D65D4 /* PKHUD.swift */,
-				16F63F2BD8ABDC3B708C5665A97BB168 /* PKHUDAnimating.swift */,
-				C36967C95E719BAC9BE79C7774D39A8B /* PKHUDAnimation.swift */,
-				8415464F6C226D8335760D396A408E58 /* PKHUDAssets.swift */,
-				CB44F0EA44C7AA7C8B7BEC613B13C4C2 /* PKHUDErrorView.swift */,
-				448BA26568CC91976A5C2496E1D42F3C /* PKHUDProgressView.swift */,
-				CFFA0A98449B10EE12C9BF39F90B7FEB /* PKHUDRotatingImageView.swift */,
-				5B92801D975942C24C35425977EFDCFA /* PKHUDSquareBaseView.swift */,
-				FDD52A7FB9DEDB183FF3700968B4A31D /* PKHUDSuccessView.swift */,
-				F4FBE1604408087AC8797403F7FDF251 /* PKHUDSystemActivityIndicatorView.swift */,
-				6399EFBD54E934E8E5442DB97475A861 /* PKHUDTextView.swift */,
-				81536B48EEDF8C9D5EEA3A9355A17A14 /* PKHUDWideBaseView.swift */,
-				C498378843BFC99C3E7FE79FC02B18D6 /* Window.swift */,
-				82E9D2B676BD98A8524F97B2444BAD86 /* WindowRootViewController.swift */,
-				0DB64444FAFAAC2A5892D9ADDD6329FE /* Resources */,
-				A72673988F3696EEF4647BB82167BD98 /* Support Files */,
+				16F1659407E2D8348DBAE3B46025CD96 /* ANSCompatibility.h */,
+				7E8FDA063D011C9789D9AB70C0F5CA0E /* Answers.h */,
+				06FD454705D99804C3ECE55575A07588 /* CLSAttributes.h */,
+				48520FEB458BB3BEE2F640F19E67F1A8 /* CLSLogging.h */,
+				4B23C934624D4378156CA0D3AF57B168 /* CLSReport.h */,
+				902017795A6B404BC55711E9117DB4F2 /* CLSStackFrame.h */,
+				4BA1B174A5A6E5E73F89D435452483DD /* Crashlytics.h */,
+				31450D2D84B40FF9CA5AF273D029D97B /* Frameworks */,
 			);
-			name = PKHUD;
-			path = PKHUD;
-			sourceTree = "<group>";
-		};
-		A72673988F3696EEF4647BB82167BD98 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B1F7002ACF3A7E178F79E9759E532A5F /* Info.plist */,
-				CDA735AA571D652D89430A778A9603BE /* PKHUD.modulemap */,
-				DB9853A5FB051C0D13D9CAC6583E39A6 /* PKHUD.xcconfig */,
-				6DDFFCAE92F595836EF26E1493401486 /* PKHUD-dummy.m */,
-				B2FE17C035C021C8DC453BEC33610D1C /* PKHUD-prefix.pch */,
-				FC63F3152B6667516D0A90D2C472C348 /* PKHUD-umbrella.h */,
-				F0F160BC3490564E78F60CBFF040EDEB /* ResourceBundle-PKHUDResources-Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/PKHUD";
+			name = Crashlytics;
+			path = Crashlytics;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -367,24 +329,30 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CABC1B49238D40C873546E28D2FA93FC /* Frameworks */ = {
+		C33396920FE142AAEBA118130AF9B35C /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				60DFFEEBA9BDA92FF8ED27DEABD1C1A4 /* GoogleMobileAds.framework */,
-				53854D63373CFDD16A73E53AE419A9FC /* libGoogleMobileAds.a */,
+				E618D6E60C94B9FA2FE900BF2130F02E /* Comets.modulemap */,
+				B585ED6322FA128375165FD4E34B2139 /* Comets.xcconfig */,
+				BDC277A85E8F11BA4A1F27CC3EB0ED79 /* Comets-dummy.m */,
+				AD9B941BA2623D07E0B493EF070867D1 /* Comets-prefix.pch */,
+				CEC64F88AA94AC276D8E35C8B96A8C17 /* Comets-umbrella.h */,
+				8709252AC24D306476BAAC834EC36120 /* Info.plist */,
 			);
-			name = Frameworks;
+			name = "Support Files";
+			path = "../Target Support Files/Comets";
 			sourceTree = "<group>";
 		};
-		D990A56C7910198988DA535E3D12ABAA /* Fabric */ = {
+		C91790B87F32DCED06D361DDE6EAE316 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0B7AC674E4B9F217FCF84EDC983DA813 /* FABAttributes.h */,
-				756DC2D5C3841B6B7F2B754D0BDDABBF /* Fabric.h */,
-				10B6A01C7E51313DB808D9F94BDDC51B /* Frameworks */,
+				2309960C6F779898CACA3FFF9000E921 /* Comets */,
+				90338F35B125A8866F4E0C8E19009F7E /* Crashlytics */,
+				198FA5BF09B8808BF56ADB0735E44C0F /* DJSemiModalViewController */,
+				E36E92EB6151445B99CF0CB6FDBC428D /* Fabric */,
+				1EC19F535EED904162A94ABAE3222DF3 /* PKHUD */,
 			);
-			name = Fabric;
-			path = Fabric;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		DD293826C69B6C0BC7086D7F8CCC2D99 /* Products */ = {
@@ -399,33 +367,44 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F09F5DACC0390F16EC9369D8146A9890 /* Crashlytics */ = {
+		E36E92EB6151445B99CF0CB6FDBC428D /* Fabric */ = {
 			isa = PBXGroup;
 			children = (
-				5BE90781DE1D14BD26A1B61679B70924 /* ANSCompatibility.h */,
-				EAE979931A437DA5A9F188961D96BC72 /* Answers.h */,
-				6DD6B51063C0C22726CBCCB506172229 /* CLSAttributes.h */,
-				E5699A25C5B17C417F31233109A6C6A1 /* CLSLogging.h */,
-				B829E3746020886E00AFDF9358CC0F1E /* CLSReport.h */,
-				29A17488059A989C3F6E6EE7F50E6B0D /* CLSStackFrame.h */,
-				765B5D069B21DEF04071C52F12082712 /* Crashlytics.h */,
-				49EFE17661942BBFA7D57B03C354C0D2 /* Frameworks */,
+				84AD2ED3694326FC597AFA986AF081BF /* FABAttributes.h */,
+				D95901D52B9229BBB65DD0894D4B8881 /* Fabric.h */,
+				76E7B5EC5E10C6E331B6F3D35512FFF5 /* Frameworks */,
 			);
-			name = Crashlytics;
-			path = Crashlytics;
+			name = Fabric;
+			path = Fabric;
 			sourceTree = "<group>";
 		};
-		F2328C4E41E582712F015CA68BBFDE5A /* Pods */ = {
+		E8015FAE7FE8C1E44E51475F0DF92CD7 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				61F9E99DEE92AEC32A2758CB51A31BBB /* Comets */,
-				F09F5DACC0390F16EC9369D8146A9890 /* Crashlytics */,
-				2E5E404D55667060D425CDE190E608EF /* DJSemiModalViewController */,
-				D990A56C7910198988DA535E3D12ABAA /* Fabric */,
-				2DA8FA2A084A1159CABE5DD51F48570C /* Google-Mobile-Ads-SDK */,
-				A3A7D6EE8057EB12D785C00DD1D0AC8E /* PKHUD */,
+				BFB1D74B22D8692A8F25467037329F7D /* DJSemiModalViewController.modulemap */,
+				D57374F5417ED9B222DE24FA6145B56B /* DJSemiModalViewController.xcconfig */,
+				F9837F87400C09E46481A26BD34102FA /* DJSemiModalViewController-dummy.m */,
+				2930CE23E5C734D825E6A64338CF0AE1 /* DJSemiModalViewController-prefix.pch */,
+				8775A34C0CF32C703AE8284E9D301899 /* DJSemiModalViewController-umbrella.h */,
+				7D4FABA37C84306648C10404FB97692C /* Info.plist */,
 			);
-			name = Pods;
+			name = "Support Files";
+			path = "../Target Support Files/DJSemiModalViewController";
+			sourceTree = "<group>";
+		};
+		FC47DCA61D805C80FDCE5079E231E650 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBF9964CD5D7B0F587F322BD950E4A4D /* Info.plist */,
+				C28BB9835BE03CBA6E525DA056CF0ED6 /* PKHUD.modulemap */,
+				2D6528DF7414330848EC8F2785FE27ED /* PKHUD.xcconfig */,
+				7D021EB658A434A343A634AE5752AF98 /* PKHUD-dummy.m */,
+				C6F08280DA4077F6CA46AB1777E950B9 /* PKHUD-prefix.pch */,
+				D310C64A32A1B43B2CD3B767711E8736 /* PKHUD-umbrella.h */,
+				6C324F43940CF631E9C1C4D82653FEF5 /* ResourceBundle-PKHUDResources-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PKHUD";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -721,7 +700,7 @@
 /* Begin XCBuildConfiguration section */
 		0BEAE452BF3F56BA3D3196B403CB2355 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DB9853A5FB051C0D13D9CAC6583E39A6 /* PKHUD.xcconfig */;
+			baseConfigurationReference = 2D6528DF7414330848EC8F2785FE27ED /* PKHUD.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PKHUD";
@@ -775,7 +754,7 @@
 		};
 		43E101F65BEAAC1F767908B1CBD2F0DC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 66BA86A06224F4D5FE156DFAECC334A1 /* Comets.xcconfig */;
+			baseConfigurationReference = B585ED6322FA128375165FD4E34B2139 /* Comets.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -810,7 +789,7 @@
 		};
 		734A472121F9303C9EB01B8AA6C4439C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DB9853A5FB051C0D13D9CAC6583E39A6 /* PKHUD.xcconfig */;
+			baseConfigurationReference = 2D6528DF7414330848EC8F2785FE27ED /* PKHUD.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PKHUD";
@@ -826,7 +805,7 @@
 		};
 		7F5D5F905A89E98527E7F581C6F659D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 66ABE0E044A5A68372F56F05525CC39D /* DJSemiModalViewController.xcconfig */;
+			baseConfigurationReference = D57374F5417ED9B222DE24FA6145B56B /* DJSemiModalViewController.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -861,7 +840,7 @@
 		};
 		9F37C447F0DCE06BE772D1C3835242E9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 66ABE0E044A5A68372F56F05525CC39D /* DJSemiModalViewController.xcconfig */;
+			baseConfigurationReference = D57374F5417ED9B222DE24FA6145B56B /* DJSemiModalViewController.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1025,7 +1004,7 @@
 		};
 		E8DA8368425C4B13249EC4DA006DB0CD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DB9853A5FB051C0D13D9CAC6583E39A6 /* PKHUD.xcconfig */;
+			baseConfigurationReference = 2D6528DF7414330848EC8F2785FE27ED /* PKHUD.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1060,7 +1039,7 @@
 		};
 		EB484C303FF06CFF4EC5FA5659166A36 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 66BA86A06224F4D5FE156DFAECC334A1 /* Comets.xcconfig */;
+			baseConfigurationReference = B585ED6322FA128375165FD4E34B2139 /* Comets.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1096,7 +1075,7 @@
 		};
 		F64093E6B831B0858C226F98042BDFED /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DB9853A5FB051C0D13D9CAC6583E39A6 /* PKHUD.xcconfig */;
+			baseConfigurationReference = 2D6528DF7414330848EC8F2785FE27ED /* PKHUD.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
