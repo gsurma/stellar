@@ -4,7 +4,7 @@
 
 # Stellar
 
-Explore daily NASA space pictures with Swift.
+Explore daily NASA space pictures.
 
 ## Swift (iOS)
 
