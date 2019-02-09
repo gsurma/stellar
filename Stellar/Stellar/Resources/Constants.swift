@@ -10,10 +10,11 @@ import Foundation
 import UIKit
 
 enum Backend {
-    static let apiKey = "9pibBBhf4px9oiohra6iecky6bHHBdMigfvuyUe0"
+    static let apiKey = "DEMO_KEY"
     static let host = "https://api.nasa.gov"
 }
 
+let defaultDateFormat = "yyy-MM-dd"
 let intervalBetweenPrompts = 10
 let imageAnimationDuration: TimeInterval = 1.5
 let requestTimeout: TimeInterval = 5.0

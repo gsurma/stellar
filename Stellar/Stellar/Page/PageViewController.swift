@@ -7,9 +7,6 @@
 //
 
 import UIKit
-import StoreKit
-import Crashlytics
-import UserNotifications
 import Comets
 
 final class PageViewController: UIPageViewController {
@@ -20,8 +17,7 @@ final class PageViewController: UIPageViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        setNotifications()
-        setEverything()
+        setPages()
         setComets()
         
         NotificationCenter.default.addObserver(self,
@@ -30,7 +26,7 @@ final class PageViewController: UIPageViewController {
                                                object: nil)
     }
     
-    func setEverything() {
+    func setPages() {
         pages = getPages()
         
         dataSource = self
@@ -38,39 +34,6 @@ final class PageViewController: UIPageViewController {
         
         if let last = pages.last {
             setViewControllers([last], direction: .forward, animated: true, completion: nil)
-        }
-    }
-    
-    private func setNotifications() {
-        
-        let center = UNUserNotificationCenter.current()
-        let options: UNAuthorizationOptions = [.alert, .sound]
-        
-        center.requestAuthorization(options: options) { (granted, error) in
-            if !granted {
-                Answers.logCustomEvent(withName: "notifications", customAttributes: ["permission": "false"])
-            } else {
-                Answers.logCustomEvent(withName: "notifications", customAttributes: ["permission": "true"])
-                let content = UNMutableNotificationContent()
-                content.title = "Check Your Stellar Photo of the Day! 🚀"
-                content.sound = UNNotificationSound.default()
-                
-                var dateInfo = DateComponents()
-                dateInfo.hour = 11
-                dateInfo.minute = 0
-                
-                let trigger = UNCalendarNotificationTrigger(dateMatching: dateInfo, repeats: true)
-                let identifier = "Stellar Photo Of The Day Notification"
-                let request = UNNotificationRequest(identifier: identifier, content: content, trigger: trigger)
-                
-                center.add(request, withCompletionHandler: { (error) in
-                    if let error = error {
-                        Answers.logCustomEvent(withName: "notifications_error", customAttributes: ["error": error.localizedDescription])
-                    } else {
-                        Answers.logCustomEvent(withName: "notifications_success", customAttributes: nil)
-                    }
-                })
-            }
         }
     }
     
@@ -98,9 +61,9 @@ final class PageViewController: UIPageViewController {
     }
     
     @objc func applicationDidBecomeActive() {
-        if Date().formattedString(format: "YYYY-MM-DD") != todayDate.formattedString(format: "YYYY-MM-DD") {
+        if Date().formattedString(format: defaultDateFormat) != todayDate.formattedString(format: defaultDateFormat) {
             todayDate = Date()
-            setEverything()
+            setPages()
         }
     }
     
@@ -125,41 +88,6 @@ final class PageViewController: UIPageViewController {
         return controllers.reversed()
     }
     
-    func showAdOrAskForReviewIfPossible() {
-        let actionCounter = UserDefaults.standard.getActionCounter()
-        if actionCounter > 0 && actionCounter % intervalBetweenPrompts == 0 {
-            if [true, false].randomElement()! {
-                SKStoreReviewController.requestReview()
-            } else {
-                showAppPromptAd()
-            }
-        }
-    }
-    
-    func showAppPromptAd() {
-        let alert = UIAlertController(title: "Hungry for new challenges?", message: "", preferredStyle: .alert)
-        alert.addAction(UIAlertAction(title: "Yes!", style: .cancel, handler: { action in
-            Answers.logCustomEvent(withName: "app_prompt_ad", customAttributes: ["answer": 1])
-            self.showAppProduct()
-        }))
-        alert.addAction(UIAlertAction(title: "No", style: .default, handler: { action in
-            Answers.logCustomEvent(withName: "app_prompt_ad", customAttributes: ["answer": 0])
-        }))
-        self.present(alert, animated: true)
-    }
-    
-    private func showAppProduct() {
-        guard let appName = Bundle.main.infoDictionary![kCFBundleNameKey as String] as? String else { return }
-        let randomAppAdIdentifier = appAdIds[Int(arc4random_uniform(UInt32(appAdIds.count)))]
-        Answers.logCustomEvent(withName: "app_ad", customAttributes: ["id": String(randomAppAdIdentifier)])
-        let vc: SKStoreProductViewController = SKStoreProductViewController()
-        let params = [SKStoreProductParameterITunesItemIdentifier:randomAppAdIdentifier,
-                      SKStoreProductParameterAffiliateToken:appName] as [String : Any]
-        vc.delegate = self
-        vc.loadProduct(withParameters: params, completionBlock: nil)
-        self.present(vc, animated: true) { () -> Void in }
-    }
-    
     override func viewDidLayoutSubviews() {
         for subView in self.view.subviews {
             if subView is UIScrollView {
@@ -173,13 +101,6 @@ final class PageViewController: UIPageViewController {
     
     override var prefersStatusBarHidden: Bool {
         return true
-    }
-}
-
-extension PageViewController: SKStoreProductViewControllerDelegate {
-    
-    func productViewControllerDidFinish(_ viewController: SKStoreProductViewController) {
-        viewController.dismiss(animated: true, completion: nil)
     }
 }
 

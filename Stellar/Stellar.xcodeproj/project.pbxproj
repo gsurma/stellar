@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		600D69C421FE9552006EBB88 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600D69C321FE9552006EBB88 /* UserDefaults.swift */; };
 		600D69C621FE96C4006EBB88 /* Arrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600D69C521FE96C4006EBB88 /* Arrays.swift */; };
 		6028FE6521FD474A004026C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6028FE6421FD474A004026C5 /* AppDelegate.swift */; };
 		6028FE6721FD474A004026C5 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6028FE6621FD474A004026C5 /* MainViewController.swift */; };
@@ -24,7 +23,6 @@
 /* Begin PBXFileReference section */
 		0A6AE1CAC960602D64D7BDAD /* Pods_Stellar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stellar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E7E13DCA575CBF8939F77FC /* Pods-Stellar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stellar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Stellar/Pods-Stellar.debug.xcconfig"; sourceTree = "<group>"; };
-		600D69C321FE9552006EBB88 /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
 		600D69C521FE96C4006EBB88 /* Arrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arrays.swift; sourceTree = "<group>"; };
 		6028FE6121FD474A004026C5 /* Stellar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stellar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6028FE6421FD474A004026C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -83,9 +81,9 @@
 			isa = PBXGroup;
 			children = (
 				60EB36C922000589000C552F /* Page */,
+				6028FE7A21FD48B8004026C5 /* Main */,
 				6028FE7C21FD4909004026C5 /* Utilities */,
 				6028FE7B21FD48C6004026C5 /* Storyboards */,
-				6028FE7A21FD48B8004026C5 /* Main */,
 				6028FE7921FD48AC004026C5 /* Application */,
 				6028FE7621FD4878004026C5 /* Resources */,
 			);
@@ -131,7 +129,6 @@
 			isa = PBXGroup;
 			children = (
 				6028FE8021FD4E94004026C5 /* PhotoOfTheDay.swift */,
-				600D69C321FE9552006EBB88 /* UserDefaults.swift */,
 				600D69C521FE96C4006EBB88 /* Arrays.swift */,
 				60EB36C721FFFE67000C552F /* Dates.swift */,
 			);
@@ -166,7 +163,6 @@
 				6028FE5E21FD474A004026C5 /* Frameworks */,
 				6028FE5F21FD474A004026C5 /* Resources */,
 				EAB36D8887213F677CCF38CE /* [CP] Embed Pods Frameworks */,
-				6028FE7F21FD4AD0004026C5 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -224,23 +220,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6028FE7F21FD4AD0004026C5 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Fabric/run\" 3c04c44cc9e40de564bfd5437f0dfc73a6fd240b 3bdcc3f992f830d222ecb6535c915740c3d797647a5384893a76c6e23b3c45ed\n";
-		};
 		C7333171354DC4BD305939E3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -298,7 +277,6 @@
 			files = (
 				6028FE6721FD474A004026C5 /* MainViewController.swift in Sources */,
 				600D69C621FE96C4006EBB88 /* Arrays.swift in Sources */,
-				600D69C421FE9552006EBB88 /* UserDefaults.swift in Sources */,
 				6028FE6521FD474A004026C5 /* AppDelegate.swift in Sources */,
 				60EB36C821FFFE67000C552F /* Dates.swift in Sources */,
 				6028FE8121FD4E94004026C5 /* PhotoOfTheDay.swift in Sources */,

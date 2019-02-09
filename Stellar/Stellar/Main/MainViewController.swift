@@ -9,7 +9,6 @@
 import UIKit
 import DJSemiModalViewController
 import PKHUD
-import Crashlytics
 
 final class MainViewController: UIViewController {
     
@@ -20,7 +19,6 @@ final class MainViewController: UIViewController {
     @IBOutlet weak var dateLabel: UILabel!
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var infoButton: UIButton!
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -41,24 +39,16 @@ final class MainViewController: UIViewController {
     
     func loadPhotoOfTheDay() {
         guard potd == nil else { return }
-        let startTime = Date().timeIntervalSince1970
-        PhotoOfTheDayProvider.get(forDate: date.formattedString(format: "YYYY-MM-DD")) { (potd) in
+        PhotoOfTheDayProvider.get(forDate: date.formattedString(format: defaultDateFormat)) { (potd) in
             if let potd = potd {
                 DispatchQueue.main.async {
-                    let elapsedTime = Date().timeIntervalSince1970-startTime
-                    Answers.logCustomEvent(withName: "potd_success", customAttributes: ["time": elapsedTime])
-                    
                     self.potd = potd
                     UIView.transition(with: self.imageView,
                                       duration: imageAnimationDuration,
                                       options: .transitionCrossDissolve, animations: {
                                         self.imageView.image = potd.image
-                    }, completion: { (completion) in
-                        
-                    })
+                    }, completion: { (completion) in })
                 }
-            } else {
-                Answers.logCustomEvent(withName: "potd_error", customAttributes: nil)
             }
         }
     }
@@ -66,7 +56,6 @@ final class MainViewController: UIViewController {
     @IBAction func infoAction(_ sender: Any) {
         if let potd = self.potd {
             let controller = DJSemiModalViewController()
-
             controller.title = potd.title
 
             let label = UILabel()
@@ -75,15 +64,8 @@ final class MainViewController: UIViewController {
             label.numberOfLines = 0
             label.textAlignment = .center
             controller.addArrangedSubview(view: label)
-            
-            controller.presentOn(presentingViewController: self, animated: true, onDismiss: {
-                UserDefaults.standard.incrementActionCounter()
-                self.page.showAdOrAskForReviewIfPossible()
-            })
-            Answers.logCustomEvent(withName: "info_success", customAttributes: nil)
-
+            controller.presentOn(presentingViewController: self, animated: true, onDismiss: { })
         } else {
-            Answers.logCustomEvent(withName: "info_error", customAttributes: nil)
             HUD.flash(.labeledError(title: "No Data", subtitle: "Check your internet connection and try again"), delay: 2.0, completion: nil)
         }
     }

@@ -6,8 +6,6 @@ target 'Stellar' do
   use_frameworks!
 
   pod "PKHUD", "~> 5.0"
-  pod "Fabric"
-  pod "Crashlytics"
   pod "Comets"
   pod "DJSemiModalViewController"
 
